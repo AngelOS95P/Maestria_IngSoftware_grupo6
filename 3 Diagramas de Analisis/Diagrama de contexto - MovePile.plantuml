@@ -1,4 +1,4 @@
-@startuml ContextDiagram
+@startuml MovePileContextDiagram
 !pragma layout smetana
 title Klondike  - MovePile - Context Diagram
 left to right direction

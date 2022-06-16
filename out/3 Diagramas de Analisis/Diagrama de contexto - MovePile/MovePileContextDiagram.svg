@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="297px" preserveAspectRatio="none" style="width:359px;height:297px;background:#FFFFFF;" version="1.1" viewBox="0 0 359 297" width="359px" zoomAndPan="magnify"><defs><filter height="300%" id="fd5utke2v7qdx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="350" x="2" y="17.4023">Klondike  - MovePile - Context Diagram</text><!--MD5=[de2effd8dc5bf946a609466312d0f75f]
+entity Player--><ellipse cx="187" cy="35.7344" fill="#FEFECE" filter="url(#fd5utke2v7qdx)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M187,43.7344 L187,70.7344 M174,51.7344 L200,51.7344 M187,70.7344 L174,85.7344 M187,70.7344 L200,85.7344 " fill="none" filter="url(#fd5utke2v7qdx)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="166.5" y="104.7695">Player</text><!--MD5=[ff3613030f0db05ca4997a5c6bbcb2ba]
+entity PileView--><rect fill="#FEFECE" filter="url(#fd5utke2v7qdx)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="76" x="149" y="160.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="159" y="183.7695">PileView</text><!--MD5=[c9664db53cde6241de2d3520ceac07b8]
+entity MovePileController--><rect fill="#FEFECE" filter="url(#fd5utke2v7qdx)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="150" x="55" y="249.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="65" y="272.7695">MovePileController</text><!--MD5=[136d3843510b2c22c07ad37b900f1a31]
+entity Pile--><rect fill="#FEFECE" filter="url(#fd5utke2v7qdx)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="44" x="223" y="249.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="233" y="272.7695">Pile</text><path d="M187,107.2664 C187,125.3993 187,145.9513 187,160.0648 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="187,160.0648,191,151.0648,187,155.0648,183,151.0648,187,160.0648" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="188" y="138.8027">movePile</text><path d="M175.7386,196.4228 C165.7458,211.6751 151.2238,233.8402 141.238,249.0817 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="141.238,249.0817,149.5161,243.7456,143.9781,244.8994,142.8244,239.3614,141.238,249.0817" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="165" y="227.8027">movePile</text><path d="M207.5679,196.49 C213.0624,201.7883 218.6696,207.9027 223,214.2344 C230.3046,224.9146 235.9254,238.4061 239.6568,248.9701 " fill="none" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="239.6568,248.9701,240.431,239.1517,237.9916,244.2556,232.8877,241.8162,239.6568,248.9701" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="233" y="227.8027">setPosition()</text><!--MD5=[6c430f89da0235cc28a75b9f24eaad5e]
+@startuml MovePileContextDiagram
+!pragma layout smetana
+title Klondike  - MovePile - Context Diagram
+left to right direction
+
+actor Player
+rectangle PileView
+rectangle MovePileController
+rectangle Pile
+
+Player - -> PileView: movePile
+PileView - -> MovePileController: movePile
+PileView ..> Pile: setPosition()
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 11:16:42 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

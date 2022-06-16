@@ -1,4 +1,4 @@
-@startuml ContextDiagram
+@startuml dealPileContextDiagram
 !pragma layout smetana
 title Klondike  - DealPile - Context Diagram
 left to right direction

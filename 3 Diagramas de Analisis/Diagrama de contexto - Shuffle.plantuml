@@ -1,4 +1,4 @@
-@startuml ContextDiagram
+@startuml ShuffleContextDiagram
 !pragma layout smetana
 title Klondike  - Shuffle - Context Diagram
 left to right direction

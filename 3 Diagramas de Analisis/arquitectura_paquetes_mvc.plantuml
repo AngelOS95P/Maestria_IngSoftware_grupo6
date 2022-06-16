@@ -3,21 +3,21 @@
 title Paquetes MVC
 top to bottom direction
 ' left to right direction
+
 package Views {
     class DeckView
     class StockView
     class PilaView
     class CimientoView
 }
-top to bottom direction
+
 package Controllers {
     class ShuffleController
     class DealController
     class MoveCardController
     class MovePileController
     class ResetDeckController
-}
-top to bottom direction
+} 
 package Models {
     class StackModel
     class CardModel
@@ -31,5 +31,5 @@ package Models {
     StackModel <|-down- PileModel
     StackModel <|-down- StockModel
 }
- 
+
 @enduml 

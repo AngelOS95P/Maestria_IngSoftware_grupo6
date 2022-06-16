@@ -1,6 +1,6 @@
-@startuml ContextDiagram
+@startuml ResetDeckContextDiagram
 !pragma layout smetana
-title Klondike  - Shuffle - Context Diagram
+title Klondike  - ResetDeck - Context Diagram
 left to right direction
 
 actor Player

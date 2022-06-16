@@ -1,0 +1,15 @@
+@startuml resetDeckUseCaseSpecification
+!pragma layout smetana
+
+title Klondike  - Use Case - ResetDeck
+state OUT_GAME
+state State 
+state IN_GAME
+state EXIT
+[*] --> OUT_GAME
+OUT_GAME --> State: Deck is Empty 
+State --> IN_GAME: Stock is the new Deck
+State --> EXIT: No moves possible
+IN_GAME --> [*]
+EXIT --> [*]
+@enduml

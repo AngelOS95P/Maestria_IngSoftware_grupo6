@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="297px" preserveAspectRatio="none" style="width:344px;height:297px;background:#FFFFFF;" version="1.1" viewBox="0 0 344 297" width="344px" zoomAndPan="magnify"><defs><filter height="300%" id="fksqvpq4kn5g6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="335" x="2" y="17.4023">Klondike  - Shuffle - Context Diagram</text><!--MD5=[de2effd8dc5bf946a609466312d0f75f]
+entity Player--><ellipse cx="173.5" cy="35.7344" fill="#FEFECE" filter="url(#fksqvpq4kn5g6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M173.5,43.7344 L173.5,70.7344 M160.5,51.7344 L186.5,51.7344 M173.5,70.7344 L160.5,85.7344 M173.5,70.7344 L186.5,85.7344 " fill="none" filter="url(#fksqvpq4kn5g6)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="153" y="104.7695">Player</text><!--MD5=[0f13da524718cfa35bb6930040822af4]
+entity DeckView--><rect fill="#FEFECE" filter="url(#fksqvpq4kn5g6)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="85" x="131" y="160.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="141" y="183.7695">DeckView</text><!--MD5=[9a63df30f2b6a6b5104e703fd2208424]
+entity ShuffleController--><rect fill="#FEFECE" filter="url(#fksqvpq4kn5g6)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="138" x="104.5" y="249.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="114.5" y="272.7695">ShuffleController</text><path d="M173.5,107.2664 C173.5,125.3993 173.5,145.9513 173.5,160.0648 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="173.5,160.0648,177.5,151.0648,173.5,155.0648,169.5,151.0648,173.5,160.0648" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="174.5" y="138.8027">Shuffle</text><path d="M173.5,196.4228 C173.5,211.6751 173.5,233.8402 173.5,249.0817 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="173.5,249.0817,177.5,240.0817,173.5,244.0817,169.5,240.0817,173.5,249.0817" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="174.5" y="227.8027">Shuffle</text><!--MD5=[adfb3fb4476baf86662814fd9bd13cb3]
+@startuml ShuffleContextDiagram
+!pragma layout smetana
+title Klondike  - Shuffle - Context Diagram
+left to right direction
+
+actor Player
+rectangle DeckView
+rectangle ShuffleController
+
+Player - -> DeckView: Shuffle
+DeckView - -> ShuffleController: Shuffle
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 11:16:42 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

@@ -1,0 +1,10 @@
+@startuml shuffleUseCaseSpecification
+!pragma layout smetana
+
+title Klondike  - Use Case - Shuffle
+state INITIAL
+state IN_GAME
+[*] --> INITIAL:  Player shuffle all Deck's cards
+INITIAL --> IN_GAME
+IN_GAME --> [*]
+@enduml
