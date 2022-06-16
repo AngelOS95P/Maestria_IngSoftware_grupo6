@@ -1,0 +1,15 @@
+@startuml ContextDiagram
+!pragma layout smetana
+title Klondike  - MovePile - Context Diagram
+left to right direction
+
+actor Player
+rectangle PileView
+rectangle MovePileController
+rectangle Pile
+
+Player --> PileView: movePile
+PileView --> MovePileController: movePile
+PileView ..> Pile: setPosition()
+
+@enduml

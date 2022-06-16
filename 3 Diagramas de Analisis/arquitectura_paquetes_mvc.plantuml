@@ -1,0 +1,35 @@
+@startuml ArquitecturaMVC
+!pragma layout smetana
+title Paquetes MVC
+top to bottom direction
+' left to right direction
+package Views {
+    class DeckView
+    class StockView
+    class PilaView
+    class CimientoView
+}
+top to bottom direction
+package Controllers {
+    class ShuffleController
+    class DealController
+    class MoveCardController
+    class MovePileController
+    class ResetDeckController
+}
+top to bottom direction
+package Models {
+    class StackModel
+    class CardModel
+    class PlayerModel
+    class DeckModel
+    class FoundationModel
+    class PileModel
+    class StockModel
+    StackModel <|-down- DeckModel
+    StackModel <|-down- FoundationModel
+    StackModel <|-down- PileModel
+    StackModel <|-down- StockModel
+}
+ 
+@enduml 

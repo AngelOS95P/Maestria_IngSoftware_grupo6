@@ -1,0 +1,15 @@
+@startuml ContextDiagram
+!pragma layout smetana
+title Klondike  - DealPile - Context Diagram
+left to right direction
+
+actor Player
+rectangle DeckView
+rectangle DealPileController
+rectangle Pile
+
+Player --> DeckView: DealPile
+DeckView --> DealPileController: DealPile
+DeckView -up..> Pile: setCards()
+
+@enduml

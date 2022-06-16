@@ -1,4 +1,4 @@
-@startuml StateDiagram
+@startuml CUDealPile
 !pragma layout smetana
 title Klondike  - DealPile - Status Diagram
 

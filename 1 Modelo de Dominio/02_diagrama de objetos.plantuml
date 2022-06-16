@@ -1,0 +1,74 @@
+@startuml initialState
+!pragma layout smetana
+object ":Klondike" as Klondike
+object ":Deck" as Deck
+object ":Stock" as Stock
+object ":Pile" as Pile
+object ":Foundations" as Foundation
+
+together {
+    object ":pile" as Pile1
+    object ":pile" as Pile2
+    object ":pile" as Pile3
+    object ":pile" as Pile4
+    object ":pile" as Pile5
+    object ":pile" as Pile6
+    object ":pile" as Pile7
+}
+
+together {
+    object ":foundation" as Foundation1
+    object ":foundation" as Foundation2
+    object ":foundation" as Foundation3
+    object ":foundation" as Foundation4
+}
+
+together {
+    object ":card" as Card1
+    object ":card" as Card2
+    object ":card" as Card3
+    object ":card" as Card4
+    object ":card" as Card5
+    object ":card" as Card6
+    object ":card" as Card7
+    object ":card" as Card8
+    object ":card" as Card9
+}
+
+Klondike *-down-> Deck
+Deck *-left-> "21" Card8
+
+Deck *-down-> Stock
+Stock *-down-> "3" Card9
+
+Klondike *-down-> Pile
+
+Pile -->  Pile7
+Pile7 *-down-> "1" Card7
+
+Pile -->  Pile6
+Pile6 *-down-> "2" Card6
+
+Pile -->  Pile5
+Pile5 *-down-> "3" Card5
+
+Pile -->  Pile4
+Pile4 *-down-> "4" Card4
+
+Pile -->  Pile3
+Pile3 *-down-> "5" Card3
+
+Pile -->  Pile2
+Pile2 *-down-> "6" Card2
+
+Pile -->  Pile1
+Pile1 *-down-> "7" Card1
+
+Klondike *-down-> Foundation
+
+Foundation -->  Foundation1
+Foundation -->  Foundation2
+Foundation -->  Foundation3
+Foundation -->  Foundation4
+
+@enduml
