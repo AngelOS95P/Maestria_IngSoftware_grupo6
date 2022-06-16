@@ -1,0 +1,13 @@
+@startuml ContextDiagram
+!pragma layout smetana
+title Klondike  - Shuffle - Context Diagram
+left to right direction
+
+actor Player
+rectangle DeckView
+rectangle ShuffleController
+
+Player --> DeckView: Shuffle
+DeckView --> ShuffleController: Shuffle
+
+@enduml
