@@ -1,0 +1,16 @@
+@startuml StateDiagram
+!pragma layout smetana
+title Klondike  - DealStock - Status Diagram
+
+state PileBuild
+state DeckBuild
+state StockBuild
+state StockReady
+
+[*] --> PileBuild
+PileBuild --> DeckBuild: MoveRemaingCardsDeck
+DeckBuild --> StockBuild: DealCardsStock
+StockBuild --> StockReady: TurnUpFirstCard
+StockReady --> [*]
+
+@enduml

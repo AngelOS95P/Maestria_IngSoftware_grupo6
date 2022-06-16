@@ -1,4 +1,7 @@
-@startuml diagrama de Actores y casos de uso
+@startuml ActorsDiagram
+!pragma layout smetana
+title Klondike  - UseCase Diagram
+
 left to right direction
 
 actor Player
