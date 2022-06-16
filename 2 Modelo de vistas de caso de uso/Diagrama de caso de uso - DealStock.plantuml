@@ -1,4 +1,4 @@
-@startuml StateDiagram
+@startuml CUDealStock
 !pragma layout smetana
 title Klondike  - DealStock - Status Diagram
 

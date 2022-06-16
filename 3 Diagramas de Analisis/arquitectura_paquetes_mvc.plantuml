@@ -1,14 +1,15 @@
-@startuml Actividades
+@startuml ArquitecturaMVC
 !pragma layout smetana
 title Paquetes MVC
-
+top to bottom direction
+' left to right direction
 package Views {
     class DeckView
     class StockView
     class PilaView
     class CimientoView
 }
-skinparam ranksep 20
+top to bottom direction
 package Controllers {
     class ShuffleController
     class DealController
@@ -16,7 +17,7 @@ package Controllers {
     class MovePileController
     class ResetDeckController
 }
-
+top to bottom direction
 package Models {
     class StackModel
     class CardModel
