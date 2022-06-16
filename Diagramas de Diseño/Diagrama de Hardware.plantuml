@@ -1,0 +1,14 @@
+	
+@startuml Diagrama de Hardware
+!pragma layout smetana
+node client
+node webServer
+node baseDataServer
+node webClient
+node movileClient
+client -right-> webServer : http
+webServer -right-> baseDataServer : ODBC
+webClient -up-> client 
+movileClient -up-> client
+
+@enduml
