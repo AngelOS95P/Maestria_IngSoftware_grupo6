@@ -1,0 +1,15 @@
+@startuml ContextDiagram
+!pragma layout smetana
+title Klondike  - Shuffle - Context Diagram
+left to right direction
+
+actor Player
+rectangle DeckView
+rectangle ResetDeckController
+rectangle Stock
+
+Player --> DeckView: ResetDeck
+DeckView --> ResetDeckController: ResetDeck
+DeckView --> Stock: setNewCards()
+
+@enduml
