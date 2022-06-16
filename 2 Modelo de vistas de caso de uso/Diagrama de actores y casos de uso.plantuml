@@ -1,0 +1,21 @@
+@startuml ActorsDiagram
+!pragma layout smetana
+title Klondike  - UseCase Diagram
+
+left to right direction
+
+actor Player
+usecase Shuffle
+usecase DealStock
+usecase DealPile
+usecase MoveCard
+usecase MovePile
+usecase ResetDeck
+
+Player --> Shuffle
+Player --> DealStock
+Player --> DealPile
+Player --> MoveCard
+Player --> MovePile
+Player --> ResetDeck
+@enduml
