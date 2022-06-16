@@ -1,0 +1,31 @@
+@startuml Diagrama de estados
+!pragma layout smetana
+state State1 <<choice>>
+state State2
+state State3  <<choice>>
+state CardInPile
+state State5 <<choice>>
+state State7 <<choice>>
+state CardInFoundation
+state State8 <<choice>>
+
+
+[*] --> State1: [IsPileEmpty]
+State1 --> State2: TurnUpFirstCard
+State2 --> State3: [IsMovementAvailable]
+State3 --> CardInPile: MoveCard
+State3 --> State5: [IsCardAs]
+State5 --> CardInFoundation: MoveCard
+State5 --> State7: [IsMovementAvailable]
+State7 --> CardInFoundation: MoveCard
+State7 --> State8: [IsCardKAndAnyPileEmpty]
+State1 --> [*]
+State8 --> CardInPile: MoveCard
+State8 --> [*]
+CardInFoundation --> [*]
+CardInPile --> [*]
+
+' note right:"Si las condiciones son diamantes o estados"
+
+
+
