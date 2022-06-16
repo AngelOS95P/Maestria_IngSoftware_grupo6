@@ -1,6 +1,6 @@
 @startuml diagrama de Actores y casos de uso
-!pragma layout smetana
 left to right direction
+
 actor Player
 usecase Shuffle
 usecase DealStock
