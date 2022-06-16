@@ -1,0 +1,26 @@
+@startuml UseCaseMoveCard 
+!pragma layout smetana
+state State1
+state if <<choice>>
+state if2 <<choice>>
+state if3 <<choice>>
+state if4 <<choice>>
+state State2
+state State3
+state State4
+state State5
+[*] --> State1: SelectCard 
+State1 --> if: [isPreviousNumberAndDiferentColorInAnotherPile]
+if --> if2: [isCardAs]
+if --> State2: MoveCardToAnotherPile
+if2 --> State3: MoveCardToEmptyFoundation
+if2 --> if3: [isNextNumberAndSameColorThatCardInFoundation]
+if3 -->State4: MoveCardToFundation
+if3 --> if4: [is"K"AndSomePileIsEmpty]
+if4 --> State5: [MoveCardToEmptyPile]
+if4 --> State1: SelectNewCardOfAnotherPile
+State3 -->[*]
+State2--> [*]
+State4 --> [*]
+State5 --> [*]
+@enduml

@@ -1,0 +1,17 @@
+@startuml UseCaseMovePile
+!pragma layout smetana
+state State1
+state if <<choice>>
+state if2 <<choice>>
+state State2
+state State3
+[*] --> State1: SelectPile
+State1 --> if: [isFirstCardOfPilePreviousNumberAndDiferentColorInAnotherPile]
+if --> if2: [isFirstCardOfPile"K"AndSomePileIsEmpty]
+if --> State2: MovePileToAnotherPile
+if2 --> State3: MovePileToEmptyPile
+if2 --> State1: SelectAnotherPile
+State3 -->[*]
+State2--> [*]
+
+@enduml
