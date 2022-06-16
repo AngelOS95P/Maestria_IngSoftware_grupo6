@@ -1,7 +1,9 @@
-@startuml StateDiagramGameStates(ContextDiagram)
+@startuml StateDiagram
 !pragma layout smetana
-state INITIAL 
-state IN_GAME 
+title Klondike  - UseCase - Status Diagram
+
+state INITIAL
+state IN_GAME
 state OUT_GAME
 state EXIT
 state if_finished <<choice>>
