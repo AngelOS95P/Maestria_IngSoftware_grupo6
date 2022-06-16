@@ -1,17 +1,18 @@
-@startuml
+@startuml diagrama de Actores y casos de uso
 !pragma layout smetana
 left to right direction
 actor Player
 usecase Shuffle
-usecase Deal
+usecase DealStock
+usecase DealPile
 usecase MoveCard
 usecase MovePile
 usecase ResetDeck
 
 Player --> Shuffle
-Player --> Deal
+Player --> DealStock
+Player --> DealPile
 Player --> MoveCard
 Player --> MovePile
 Player --> ResetDeck
-
 @enduml

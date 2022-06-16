@@ -25,7 +25,7 @@ while (Deck isEmpty) is (No)
         if (is Card an AS) then (yes)
           :move Card toEmpty Foundation;
         else (no)
-          if (Card is theNext Number andDiferentColor that Card in Foundation) then (yes)
+          if (Card is theNext Number andSameColor that Card in Foundation) then (yes)
             :move Card to Foundation;
           else (no)
             if (Card is "K" andSomePile isEmpty) then (yes) 
