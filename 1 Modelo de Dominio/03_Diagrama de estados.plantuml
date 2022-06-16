@@ -1,5 +1,7 @@
 @startuml Diagrama de estados
 !pragma layout smetana
+title Klondike  - State Diagram
+
 state State1 <<choice>>
 state State2
 state State3  <<choice>>

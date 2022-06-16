@@ -1,4 +1,7 @@
 @startuml Actividades
+
+
+
 start
 :shuffleCards;
 :dealCard to Pile1;
@@ -21,17 +24,22 @@ while (Deck isEmpty) is (No)
     if (Pile isEmpty) then (no)
       if (Card is thePrevious Number And DiferentColor that Card inAnother Pile) then (yes)
         :move Card toThis Pile;
+        :turnUpFirstCard;
       else (no)
         if (is Card an AS) then (yes)
           :move Card toEmpty Foundation;
+          :turnUpFirstCard;
         else (no)
           if (Card is theNext Number andSameColor that Card in Foundation) then (yes)
             :move Card to Foundation;
+            :turnUpFirstCard;
           else (no)
             if (Card is "K" andSomePile isEmpty) then (yes) 
               :move Card toEmpty Pile;
+              :turnUpFirstCard;
             else (no)
               :move toNext Pile;
+
              endif
            endif
          endif

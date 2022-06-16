@@ -57,14 +57,14 @@ Universidad Politecnica Salesiana
 
 ### Estado movimiento de carta 
 
-* Objetivo TicTacToe en 3ª fila
+* Diferentes situacion para una carte que se quiera mover
 
 ![Estado_final](./docs/diagramas/modeloDominio/03_Diagrama%20de%20estados.svg)  
 
 
 ### Diagra de actividades
 
-![Diagra de actividades](./docs/diagramas/modeloDominio/04_Actividades.svg)  
+![Diagra de actividades](./out/1%20Modelo%20de%20Dominio/04_Diagrama%20de%20actividades/Actividades.svg)  
 
 
 
