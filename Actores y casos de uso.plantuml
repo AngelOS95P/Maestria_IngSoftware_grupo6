@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+left to right direction
+actor Player
+usecase Shuffle
+usecase Deal
+usecase MoveCard
+usecase MovePile
+usecase ResetDeck
+
+Player --> Shuffle
+Player --> Deal
+Player --> MoveCard
+Player --> MovePile
+Player --> ResetDeck
+
+@enduml

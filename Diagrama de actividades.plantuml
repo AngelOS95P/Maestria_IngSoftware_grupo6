@@ -1,0 +1,55 @@
+@startuml Actividades
+start
+:shuffleCards;
+:dealCard to Pile1;
+
+while (areSeven Pile on Klondike)  is (No)
+  :move toNext Pile;
+  :dealCard to Pile;
+  while (areIn Pile oneCardMoreThanLast Pile)  is (No)
+    :DealCard;
+  endwhile (Yes)
+endwhile (Yes)
+
+:turnUp firstCard on each Pile;
+:move remainingCards to Deck;
+:turnUp firstThreeCards from Deck to Stock; 
+note right: The stock is treated how a pile from this moment
+
+while (Deck isEmpty) is (No)
+  while (areInEigth Pile) is (No)
+    if (Pile isEmpty) then (no)
+      if (Card is thePrevious Number And DiferentColor that Card inAnother Pile) then (yes)
+        :move Card toThis Pile;
+      else (no)
+        if (is Card an AS) then (yes)
+          :move Card toEmpty Foundation;
+        else (no)
+          if (Card is theNext Number andDiferentColor that Card in Foundation) then (yes)
+            :move Card to Foundation;
+          else (no)
+            if (Card is "K" andSomePile isEmpty) then (yes) 
+              :move Card toEmpty Pile;
+            else (no)
+              :move toNext Pile;
+             endif
+           endif
+         endif
+      endif
+    else (yes)
+      :move toNext Pile;
+    endif
+  endwhile (Yes)
+  :deal Cards from Deck to Stock; 
+  :move to Stock; 
+  note right: The stock is the first pile now
+endwhile (Yes)
+if (Foundations areFull) then (yes)
+  :Play Win;
+else (no)
+  :Game Over;
+endif
+
+stop
+
+@enduml
