@@ -1,4 +1,7 @@
-@startuml Diagrama de estados
+@startuml StateDiagram
+!pragma layout smetana
+title Klondike  - State Diagram
+
 !pragma layout smetana
 state State1 <<choice>>
 state State2
@@ -8,7 +11,6 @@ state State5 <<choice>>
 state State7 <<choice>>
 state CardInFoundation
 state State8 <<choice>>
-
 
 [*] --> State1: [IsPileEmpty]
 State1 --> State2: TurnUpFirstCard
@@ -26,6 +28,3 @@ CardInFoundation --> [*]
 CardInPile --> [*]
 
 note right:"Si las condiciones son diamantes o estados"
-
-
-

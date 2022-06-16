@@ -1,5 +1,7 @@
-@startuml initialState
+@startuml ObjectsDiagram
 !pragma layout smetana
+title Klondike  - Objects Diagram
+
 object ":Klondike" as Klondike
 object ":Deck" as Deck
 object ":Stock" as Stock
