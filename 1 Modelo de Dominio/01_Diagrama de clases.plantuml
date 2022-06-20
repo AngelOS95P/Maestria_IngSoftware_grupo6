@@ -4,13 +4,17 @@ title Klondike  - Class Diagram
 
 class Klondike
 class Player
+class Tableau
 class Foundation
 class Pile
-class Deck
 class Stock
 class Stack
 class Goal
-class Card
+class Card {
+  +Int color
+  +Int number
+  +boolean status
+}
 class Action
 class Shuffle
 class Move
@@ -18,28 +22,29 @@ class Deal
 
 
 Klondike *-down-> "1" Player
-Player *-down-> "1" Deck
-Deck *-down-> "52" Card
+Klondike *-down-> "4" Foundation
+Klondike *-down-> "1" Tableau
+Klondike *-down-> "1" Stock
+Klondike *-down-> "1" Waste
+
+Foundation *-down-> "0..52" Card
+
+Tableau *-down-> "7" Pile
+Pile *-down-> "0..*" Card
+
+Stock *-down-> "0..24" Card
+Waste *-down-> "0..3" Card
+
 Player o-down-> "1" Goal
+Goal .down.> "1" Foundation
+
+Goal .down.> "1" Action
 Action <|-down- "1" Shuffle
 Action <|-down- "*" Move
 Action <|-down- "*" Deal
-Goal .up.> "1" Pile
-Goal .up.> "1" Foundation
-Goal .down.> "1" Move
-Deal .down.> "*" Deck
 Action .down.> "*" Card
-Move .down.> "*" Pile
+Action .down.> "*" Pile
 
-Klondike *-down-> "4" Foundation
-Foundation *-down-> "0..13" Card
-Klondike *-down-> "7" Pile
-Pile *-down-> "0..7" Card
-Pile .right.> "1" Deck
-Stock .up.> "1" Deck
-
-Stack <|-down- "1" Deck
-Stack <|-down- "1" Stock
 Stack <|-down- "1" Foundation
 Stack <|-down- "1" Pile
 
