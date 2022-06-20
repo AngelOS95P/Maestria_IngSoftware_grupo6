@@ -1,74 +1,181 @@
-@startuml initialState
+@startuml ObjectDiagram
 !pragma layout smetana
+title Klondike  - Objects Diagram
+
 object ":Klondike" as Klondike
-object ":Deck" as Deck
+object ":Waste" as Waste
 object ":Stock" as Stock
-object ":Pile" as Pile
-object ":Foundations" as Foundation
+object ":Pile" as Pile3
+object ":Pile" as Pile4
+object ":Pile" as Pile5
+object ":Pile" as Pile6
+object ":Pile" as Pile7
+object ":Pile" as Pile8
+object ":Pile" as Pile9
+object ":Foundation" as Foundation
 
-together {
-    object ":pile" as Pile1
-    object ":pile" as Pile2
-    object ":pile" as Pile3
-    object ":pile" as Pile4
-    object ":pile" as Pile5
-    object ":pile" as Pile6
-    object ":pile" as Pile7
+object ":Card" as Card1 {
+    color: random
+    number: random
+    turned: false
 }
 
-together {
-    object ":foundation" as Foundation1
-    object ":foundation" as Foundation2
-    object ":foundation" as Foundation3
-    object ":foundation" as Foundation4
+object ":Card" as Card21 {
+    color: black
+    number: 7
+    turned: true
 }
 
-together {
-    object ":card" as Card1
-    object ":card" as Card2
-    object ":card" as Card3
-    object ":card" as Card4
-    object ":card" as Card5
-    object ":card" as Card6
-    object ":card" as Card7
-    object ":card" as Card8
-    object ":card" as Card9
+object ":Card" as Card22 {
+    color: black
+    number: 4
+    turned: true
 }
 
-Klondike *-down-> Deck
-Deck *-left-> "21" Card8
+object ":Card" as Card23 {
+    color: red
+    number: Q
+    turned: true
+}
 
-Deck *-down-> Stock
-Stock *-down-> "3" Card9
+object ":Card" as Card3 {
+    color: red
+    number: K
+    turned: true
+}
 
-Klondike *-down-> Pile
+object ":Card" as Card4 {
+    color: red
+    number: 9
+    turned: true
+}
 
-Pile -->  Pile7
-Pile7 *-down-> "1" Card7
+object ":Card" as Card41 {
+    color: random
+    number: random
+    turned: false
+}
 
-Pile -->  Pile6
-Pile6 *-down-> "2" Card6
+object ":Card" as Card5 {
+    color: black
+    number: 3
+    turned: true
+}
 
-Pile -->  Pile5
-Pile5 *-down-> "3" Card5
+object ":Card" as Card51 {
+    color: random
+    number: random
+    turned: false
+}
 
-Pile -->  Pile4
-Pile4 *-down-> "4" Card4
+object ":Card" as Card6 {
+    color: red
+    number: J
+    turned: true
+}
 
-Pile -->  Pile3
-Pile3 *-down-> "5" Card3
+object ":Card" as Card61 {
+    color: random
+    number: random
+    turned: false
+}
 
-Pile -->  Pile2
-Pile2 *-down-> "6" Card2
+object ":Card" as Card7 {
+    color: black
+    number: 9
+    turned: true
+}
 
-Pile -->  Pile1
-Pile1 *-down-> "7" Card1
+object ":Card" as Card71 {
+    color: random
+    number: random
+    turned: false
+}
 
-Klondike *-down-> Foundation
+object ":Card" as Card8 {
+    color: red
+    number: 7
+    turned: true
+}
 
-Foundation -->  Foundation1
-Foundation -->  Foundation2
-Foundation -->  Foundation3
-Foundation -->  Foundation4
+object ":Card" as Card81 {
+    color: random
+    number: random
+    turned: false
+}
+
+object ":Card" as Card9 {
+    color: red
+    number: A
+    turned: true
+}
+
+object ":Card" as Card91 {
+    color: random
+    number: random
+    turned: false
+}
+
+Klondike *-right-> Foundation
+Klondike *-left-> Stock
+Klondike *-left-> Waste
+note  "Is Empty" as FNote
+Foundation .right FNote
+Klondike *--> Pile3
+Klondike *--> Pile4
+Klondike *--> Pile5
+Klondike *--> Pile6
+Klondike *--> Pile7
+Klondike *--> Pile8
+Klondike *--> Pile9
+
+Stock -left- Card1
+note "Stock have 21\n cards turned down." as C1N
+Card1 . C1N
+
+Waste -left- Card21
+Waste -- Card22
+Waste -- Card23
+
+Pile3 -down-  Card3
+
+Pile4 --  Card4
+Pile4 --  Card41
+note "1" as C4N
+Card1 . C4N
+
+Pile5 --  Card5
+Pile5 --  Card51
+note "2" as C5N
+Card51 . C5N
+
+Pile6 --  Card6
+Pile6 --  Card61
+note "3" as C6N
+Card61 . C6N
+
+Pile7 --  Card7
+Pile7 --  Card71
+note "4" as C7N
+Card71 . C7N
+
+Pile8 --  Card8
+Pile8 --  Card81
+note "5" as C8N
+Card81 . C8N
+
+Pile9 --  Card9
+Pile9 --  Card91
+note "6" as C9N
+Card91 . C9N
+
+note "Pile1 have 1 card turned up.\nPile2 have 1 card turned up and 1 card turned down\nPile3 have 1 card turned up and 2 cards turned down\nPile4 have 1 card turned up and 3 cards turned down\nPile5 have 1 card turned up and 4 cards turned down\nPile6 have 1 card turned up and 5 cards turned down\nPile7 have 1 card turned up and 6 cards turned down\n." as PNote
+Pile3 ... PNote
+Pile4 ... PNote
+Pile5 ... PNote
+Pile6 ... PNote
+Pile7 ... PNote
+Pile8 ... PNote
+Pile9 ... PNote
 
 @enduml
