@@ -13,7 +13,7 @@ class Goal
 class Card {
   +Int color
   +Int number
-  +boolean status
+  +boolean turned
 }
 class Action
 class Shuffle
