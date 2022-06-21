@@ -6,7 +6,6 @@ title Klondike  - State Diagram
 state CardInDeck
 state CardInPile
 state CardInStock
-state Dealer  <<choice>>
 state CardInFoundation
 
 [*] --> CardInDeck
@@ -18,11 +17,12 @@ CardInPile --> CardInPile: moveCard
 CardInPile --> CardInFoundation: moveCard
 CardInFoundation --> CardInPile: moveCard
 
-CardInStock --> CardInWaste: dealCard
-CardInWaste --> CardInStock: movePile
+CardInStock --> CardInWaste: deal3Cards
+CardInWaste --> CardInStock: moveAllCards
 CardInWaste --> CardInPile: moveCard
 CardInWaste --> CardInFoundation: moveCard
 
 CardInFoundation --> [*]: [isFoundationFull]
+CardInWaste --> [*]: [areMoreMoves]
 
 @enduml
