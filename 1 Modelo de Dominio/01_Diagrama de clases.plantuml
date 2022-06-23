@@ -1,6 +1,6 @@
 @startuml Class Diagram
-!pragma layout smetana
 title Klondike  - Class Diagram
+!pragma layout smetana
 
 class Klondike
 class Player
@@ -13,12 +13,22 @@ class Goal
 class Card {
   +Int color
   +Int number
+  +String type
   +boolean turned
 }
 class Action
 class Shuffle
 class Move
+class PileToPileMove
+class PileToFoundationMove
+class FoundationToPileMove
+class WasteToFoundationMove
+class WasteToPileMove
+class WasteToStockMove
 class Deal
+class DealToPile
+class DealToStock
+class DealToWaste
 
 
 Klondike *-down-> "1" Player
@@ -36,12 +46,23 @@ Stock *-down-> "0..24" Card
 Waste *-down-> "0..3" Card
 
 Player o-down-> "1" Goal
+Player -down-> Card
+Player -down-> Stack
 Goal .down.> "1" Foundation
 
 Goal .down.> "1" Action
 Action <|-down- "1" Shuffle
 Action <|-down- "*" Move
+Move <|-down- PileToPileMove
+Move <|-down-- PileToFoundationMove
+Move <|-down- FoundationToPileMove
+Move <|-down-- WasteToPileMove
+Move <|-down-- WasteToStockMove
+Move <|-down-- WasteToFoundationMove
 Action <|-down- "*" Deal
+Deal <|-down- DealToPile
+Deal <|-down-- DealToStock
+Deal <|-down- DealToWaste
 Action .down.> "*" Card
 Action .down.> "*" Pile
 
