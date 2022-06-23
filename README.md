@@ -60,13 +60,14 @@ Universidad Politecnica Salesiana
 
 ### Vocabulary
 
-![Vocabulario](./docs/diagramas/modeloDominio/01_Class%20Diagram.svg)  
+![Vocabulario](./out/1%20Modelo%20de%20Dominio/01_Diagrama%20de%20clases/Class%20Diagram.svg)  
   
-
 
 ### Estado Inicial
   
-![Estado_inicial](./docs/diagramas/modeloDominio/02_initialState.svg)  
+![Estado_inicial](./out/1%20Modelo%20de%20Dominio/02_diagrama%20de%20objetos/ObjectDiagram.svg)  
+  
+
 
 ### Estado movimiento de carta 
 
