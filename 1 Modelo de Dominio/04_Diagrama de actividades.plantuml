@@ -1,63 +1,52 @@
-@startuml Actividades
-
-
+@startuml ActivitiesDiagram
+title Klondike  - Activities Diagram
+!pragma layout smetana
 
 start
-:shuffleCards;
-:dealCard to Pile1;
+
+:Shuffle;
+:DealToPile Pile1;
 
 while (areSeven Pile on Klondike)  is (No)
   :move toNext Pile;
-  :dealCard to Pile;
+  :DealToPile;
   while (areIn Pile oneCardMoreThanLast Pile)  is (No)
-    :DealCard;
+    :DealToPile;
   endwhile (Yes)
 endwhile (Yes)
 
 :turnUp firstCard on each Pile;
-:move remainingCards to Deck;
-:turnUp firstThreeCards from Deck to Stock; 
-note right: The stock is treated how a pile from this moment
+:DealToStock;
+:DealToWaste;
 
-while (Deck isEmpty) is (No)
-  while (areInEigth Pile) is (No)
-    if (Pile isEmpty) then (no)
-      if (Card is thePrevious Number And DiferentColor that Card inAnother Pile) then (yes)
-        :move Card toThis Pile;
-        :turnUpFirstCard;
-      else (no)
-        if (is Card an AS) then (yes)
-          :move Card toEmpty Foundation;
-          :turnUpFirstCard;
-        else (no)
-          if (Card is theNext Number andSameColor that Card in Foundation) then (yes)
-            :move Card to Foundation;
-            :turnUpFirstCard;
-          else (no)
-            if (Card is "K" andSomePile isEmpty) then (yes) 
-              :move Card toEmpty Pile;
-              :turnUpFirstCard;
-            else (no)
-              :move toNext Pile;
+while ()
+  switch (isSelectedCard)
+    case ()
+      :PileToPileMove;
+    case ()
+      :PileToFoundationMove;
+    case ()
+      :FoundationToWasteMove;
+    case ()
+      :WasteToFondationMove;
+    case ()
+      :WasteToPileMove;
+    case ()
+      :WasteToStockMove;
+  endswitch
 
-             endif
-           endif
-         endif
-      endif
+  if (isFoundationFull) then (yes)
+    :WinGame;
+    break;
+  else (no)
+    if (haveMoreMoves) then (no)
+      :Restart;
+      break;
     else (yes)
-      :move toNext Pile;
     endif
-  endwhile (Yes)
-  :deal Cards from Deck to Stock; 
-  :move to Stock; 
-  note right: The stock is the first pile now
-endwhile (Yes)
-if (Foundations areFull) then (yes)
-  :Play Win;
-else (no)
-  :Game Over;
-endif
+  endif
+endwhile
 
 stop
 
-@enduml 
+@enduml
