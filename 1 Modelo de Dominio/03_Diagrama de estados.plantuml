@@ -1,28 +1,34 @@
 @startuml StateDiagram
-!pragma layout smetana
 title Klondike  - State Diagram
-
 !pragma layout smetana
+
 state CardInDeck
 state CardInPile
 state CardInStock
 state CardInFoundation
+state GameFinal <<choice>>
+state RestartGame
+state GameWin
 
 [*] --> CardInDeck
-CardInDeck --> CardInDeck: shuffleCards
-CardInDeck --> CardInPile: deal28Cards
-CardInDeck --> CardInStock: deal24Cards
+CardInDeck --> CardInDeck: Shuflle
+CardInDeck --> CardInPile: DealToPile
+CardInDeck --> CardInStock: DealToStock
 
-CardInPile --> CardInPile: moveCard
-CardInPile --> CardInFoundation: moveCard
-CardInFoundation --> CardInPile: moveCard
+CardInPile --> CardInPile: PileToPileMove
+CardInPile --> CardInFoundation: PileToFoundationMove
+CardInFoundation --> CardInPile: FoundationToPileMove
 
-CardInStock --> CardInWaste: deal3Cards
-CardInWaste --> CardInStock: moveAllCards
-CardInWaste --> CardInPile: moveCard
-CardInWaste --> CardInFoundation: moveCard
+CardInStock --> CardInWaste: DealToWaste
+CardInWaste --> CardInStock: WasteToStockMove
+CardInWaste --> CardInPile: WasteToPileMove
+CardInWaste --> CardInFoundation: WasteToFoundationMove
 
-CardInFoundation --> [*]: [isFoundationFull]
-CardInWaste --> [*]: [areMoreMoves]
+CardInFoundation --> GameFinal
+GameFinal --> RestartGame: [NoMoreMoves]
+GameFinal --> GameWin: [IsFoundationFull]
+
+RestartGame --> [*]
+GameWin --> [*]
 
 @enduml
