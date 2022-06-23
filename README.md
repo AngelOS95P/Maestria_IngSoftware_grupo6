@@ -19,6 +19,7 @@ Universidad Politecnica Salesiana
     * [Estado Inicial](#estado-inicial)  
     * [Estado movimiento de carta](#estado-movimiento-de-carta)
     * [Diagra de actividades](#diagra-de-actividades)
+     * [Diagra de actividades detallado](#diagra-de-actividades-detallado)
 
 
 - [Modelo de vistas de caso de uso](#modelo-de-vistas-de-caso-de-uso)
@@ -73,13 +74,17 @@ Universidad Politecnica Salesiana
 
 * Diferentes situacion para una carte que se quiera mover
 
-![Estado_final](./docs/diagramas/modeloDominio/03_Diagrama%20de%20estados.svg)  
+![Estado_final](./out/1%20Modelo%20de%20Dominio/03_Diagrama%20de%20estados/StateDiagram.svg)  
 
 
-### Diagra de actividades
 
-![Diagra de actividades](./out/1%20Modelo%20de%20Dominio/04_Diagrama%20de%20actividades/Actividades.svg)  
+### Diagra de actividades 
 
+![Diagra de actividades](./out/1%20Modelo%20de%20Dominio/04_Diagrama%20de%20actividades/ActivitiesDiagram.svg)
+
+### Diagra de actividades detallado
+
+![Diagra de actividades detallado](./out/1%20Modelo%20de%20Dominio/05_Diagrama%20de%20actividades%20detallado/DetailActivityDiagram.svg)
 
 
 
