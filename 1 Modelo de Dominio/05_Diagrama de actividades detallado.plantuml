@@ -1,0 +1,76 @@
+@startuml DetailActivityDiagram
+title Klondike  - Detail Activity Diagram
+!pragma layout smetana
+
+start
+
+:Shuffle;
+:DealToPile Pile1;
+
+while (areSeven Pile on Klondike)  is (No)
+  :move toNext Pile;
+  :DealToPile;
+  while (areIn Pile oneCardMoreThanLast Pile)  is (No)
+    :DealToPile;
+  endwhile (Yes)
+endwhile (Yes)
+
+:turnUp firstCard on each Pile;
+:DealToStock;
+:DealToWaste;
+
+while ()
+  switch (isSelectedCard)
+    case ()
+      switch (isCardInPile)
+        case ()
+          if (< CardNumber AND DiferentColor \n OR CardNumer is K) then (yes)
+           :PileToPileMove;
+          else (no)
+          endif
+        case ()
+          if (> CardNumber AND SameColor \n OR CardNumer is A) then (yes)
+           :PileToFoundationMove;
+          else (no)
+          endif
+      endswitch
+    case ()
+      switch (isCardInWaste)
+        case ()
+          if (< CardNumber AND DiferentColor \n OR CardNumer is K) then (yes)
+           :WasteToPileMove;
+          else (no)
+            :WasteToStockMove;
+          endif
+        case ()
+          if (> CardNumber AND SameColor \n OR CardNumer is A) then (yes)
+           :WasteToFoundationMove;
+          else (no)
+            :WasteToStockMove;
+          endif
+      endswitch
+    case ()
+      switch (isCardInFoundation)
+        case ()
+          if (< CardNumber AND DiferentColor \n OR CardNumer is K) then (yes)
+           :PileToPileMove;
+          else (no)
+          endif
+      endswitch
+  endswitch
+
+  if (isFoundationFull) then (yes)
+    :WinGame;
+    break;
+  else (no)
+    if (haveMoreMoves) then (no)
+      :Restart;
+      break;
+    else (yes)
+    endif
+  endif
+endwhile
+
+stop
+
+@enduml
