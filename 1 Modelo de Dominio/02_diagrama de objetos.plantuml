@@ -1,6 +1,6 @@
 @startuml ObjectDiagram
-!pragma layout smetana
 title Klondike  - Objects Diagram
+!pragma layout smetana
 
 object ":Klondike" as Klondike
 object ":Waste" as Waste
