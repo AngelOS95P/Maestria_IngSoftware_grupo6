@@ -1,0 +1,20 @@
+@startuml UseCaseFoundationtoPileMove
+!pragma layout smetana
+state IN_GAME
+state CARD_SELECTED
+state if <<choice>>
+state if2 <<choice>>
+
+state CardToPile
+
+[*] --> IN_GAME: SelectCard 
+IN_GAME --> CARD_SELECTED: Take card from Foundation
+CARD_SELECTED --> if: [is"K"AndSomePileIsEmpty]
+if --> if2:[isPreviousNumberAndDiferentColorInAnotherPile]
+if --> CardToPile: MoveCardToAnotherPile
+if2 --> CardToPile: MoveCardToEmptyFoundation
+if2 --> [*]
+
+CardToPile--> [*]
+
+@enduml

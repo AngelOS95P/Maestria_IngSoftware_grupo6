@@ -26,7 +26,7 @@ while ()
     case ()
       :PileToFoundationMove;
     case ()
-      :FoundationToWasteMove;
+      :FoundationToPileMove;
     case ()
       :WasteToFondationMove;
     case ()
@@ -40,7 +40,7 @@ while ()
     break;
   else (no)
     if (haveMoreMoves) then (no)
-      :Restart;
+      :TryAnother;
       break;
     else (yes)
     endif

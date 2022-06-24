@@ -25,10 +25,10 @@ CardInWaste --> CardInPile: WasteToPileMove
 CardInWaste --> CardInFoundation: WasteToFoundationMove
 
 CardInFoundation --> GameFinal
-GameFinal --> RestartGame: [NoMoreMoves]
+GameFinal --> TryAnother: [NoMoreMoves]
 GameFinal --> GameWin: [IsFoundationFull]
 
-RestartGame --> [*]
+TryAnother --> [*]
 GameWin --> [*]
 
 @enduml

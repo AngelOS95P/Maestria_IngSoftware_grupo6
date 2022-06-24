@@ -6,6 +6,7 @@ left to right direction
 actor Player
 
 usecase Login
+usecase StartGame
 usecase DealToWaste
 usecase PileToPileMove
 usecase PileToFoundationMove
@@ -18,6 +19,7 @@ usecase Redo
 usecase RestartGame
 
 Player --> Login
+Player --> StartGame
 Player --> DealToWaste
 Player --> PileToPileMove
 Player --> PileToFoundationMove
