@@ -1,0 +1,25 @@
+@startuml UseCaseWasteToFoundationMove
+!pragma layout smetana
+title Klondike  - Case of Use Diagram - WasteToFoundationMove
+
+
+state IN_GAME
+state CARD_SELECTED
+state if <<choice>>
+state if2 <<choice>>
+
+state CardToFoundatoin
+
+
+[*] --> IN_GAME
+IN_GAME --> CARD_SELECTED: Take card from Waste
+CARD_SELECTED --> if: [isCardAsAndFoundationEmpty]
+if --> if2:[isNextNumberAndSameColorThatCardInFoundation]
+if --> CardToFoundatoin: MoveCardToFoundation
+if2 --> CardToFoundatoin: MoveCardToEmptyFoundation
+if2 --> [*]
+
+
+CardToFoundation--> [*]
+
+@enduml

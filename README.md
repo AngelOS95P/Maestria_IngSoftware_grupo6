@@ -26,6 +26,19 @@ Universidad Politecnica Salesiana
     * [Diagrama de actores y casos de uso](#diagrama-de-actores-y-casos-de-uso)  
     * [Diagrama relacion de casos de uso](#diagrama-relacion-de-casos-de-uso)
     * [Casos de Uso](#casos-de-uso)
+        * [CU Login](#cu-loguin)
+        * [CU StartGame](#cu-startgame)
+        * [CU DealToWaste](#cu-dealtowaste)
+        * [CU PileToPileMove](#cu-piletopilemove)
+        * [CU PiletoFoundationMove](#cu-piletofoundationmove)
+        * [CU FoundationtoPileMove](#cu-foundationtopilemove)
+        * [CU WastetoPileMove](#cu-wastetopilemove)
+        * [CU WastetoFoundationMove](#cu-wastetofoundationmove)
+        * [CU WastetoStockMove](#cu-wastetostockmove)
+        * [CU Undo](#cu-undo)
+        * [CU Redo](#cu-redo)
+        * [CU RestartGame](#cu-restartgame)
+
         * [CU Shuffle](#cu-shuffle)
         * [CU DealPile](#cu-dealpile)
         * [CU DealStock](#cu-dealstock)
@@ -95,13 +108,34 @@ Universidad Politecnica Salesiana
 
 ### Diagrama de actores y casos de uso
 ![Actores y casos de uso](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20actores%20y%20casos%20de%20uso/ActorsDiagram.svg)
+
 ### Diagrama relacion de casos de uso
 ![Relacion de casos de uso](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20relacion%20de%20Casos%20de%20Uso/StateDiagram.svg)
 
+
+
 ### Casos de Uso
 
-#### CU Shuffle
+#### CU StartGame
 ![CU Shuffle](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20Shuffle/shuffleUseCaseSpecification.svg)
+
+
+#### CU FoundationtoPileMove
+![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20FoundationToPileMove/UseCaseFoundationtoPileMove.svg)
+
+#### CU WastetoPileMove
+![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20WasteToPileMove/UseCaseWasteToPileMove.svg)
+
+#### CU WastetoFoundationMove
+![CU WastetoFoundationMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20WasteToFoundationMove/UseCaseWasteToFoundationMove.svg)
+
+#### CU WastetoStockMove
+![CU WastetoStackMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20WasteToStock/UseCaseWasteToPileMove.svg)
+
+
+
+
+
 #### CU DealPile
 ![CU DealPile](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20DealPile/CUDealPile.svg)
 #### CU DealStock

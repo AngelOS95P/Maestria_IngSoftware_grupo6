@@ -10,7 +10,7 @@ state if2 <<choice>>
 
 state CardToPile
 
-[*] --> IN_GAME: SelectCard 
+[*] --> IN_GAME
 IN_GAME --> CARD_SELECTED: Take card from Waste
 CARD_SELECTED --> if: [is"K"AndSomePileIsEmpty]
 if --> if2:[isPreviousNumberAndDiferentColorInAnotherPile]
