@@ -13,7 +13,7 @@ class Goal
 class Card {
   +Int color
   +Int number
-  +String type
+  +String figure
   +boolean turned
 }
 class Action
