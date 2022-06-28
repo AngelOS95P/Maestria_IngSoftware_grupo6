@@ -8,15 +8,15 @@ state CARD_SELECTED
 state if <<choice>>
 state if2 <<choice>>
 
-state CardToFoundatoin
+state CardToFoundation
 
 
 [*] --> IN_GAME
-IN_GAME --> CARD_SELECTED: Take card from Waste
+IN_GAME --> CARD_SELECTED: Player take card from Waste
 CARD_SELECTED --> if: [isCardAsAndFoundationEmpty]
 if --> if2:[isNextNumberAndSameColorThatCardInFoundation]
-if --> CardToFoundatoin: MoveCardToFoundation
-if2 --> CardToFoundatoin: MoveCardToEmptyFoundation
+if --> CardToFoundation: MoveCardToFoundation
+if2 --> CardToFoundation: MoveCardToEmptyFoundation
 if2 --> [*]
 
 

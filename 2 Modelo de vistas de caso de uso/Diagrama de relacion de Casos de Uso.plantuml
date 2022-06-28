@@ -3,29 +3,29 @@
 title Klondike  - UseCase - Context Diagram
 
 state INITIAL
-state _
+state GAME_READY
 state IN_GAME
 state OUT_GAME
 state EXIT
 state if_finished <<choice>>
 state if_resumed <<choice>>
 
+
+note "PileToPileMove\nPileToFoundationMove\nWasteToFoundationMove\nWasteToPileMove\nFondationToPileMove\nWaisteToStockMove\nUndo\nRedo" as PNote
+
+
+if_finished --> PNote
 [*] --> INITIAL: Login
 
-INITIAL --> _: StartGame 
-_ --> IN_GAME: DealToWaste
-IN_GAME --> if_finished: PileToPileMove
-IN_GAME --> if_finished: PileToFoundationMove
-IN_GAME --> if_finished: WasteToFoundationMove
-IN_GAME --> if_finished: WasteToPileMove
-IN_GAME --> if_finished: FondationToPileMove
-IN_GAME --> if_finished: WaisteToStockMove
-IN_GAME --> if_finished: Undo
-IN_GAME --> if_finished: Redo
+INITIAL -->GAME_READY: StartGame 
+GAME_READY--> IN_GAME: DealToWaste
+IN_GAME --> if_finished: MoveCard 
 if_finished --> IN_GAME
 if_finished --> OUT_GAME: [finished]
-OUT_GAME --> if_resumed: ResetDeck
+OUT_GAME --> if_resumed: ResetGame
 if_resumed --> INITIAL: [continued]
 if_resumed --> EXIT
 EXIT --> [*]
+
+
 @enduml

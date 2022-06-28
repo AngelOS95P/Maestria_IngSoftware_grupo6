@@ -4,7 +4,7 @@
 title Klondike  - Use Case - StartGame
 state INITIAL
 state IN_GAME
-[*] --> INITIAL:  Player shuffle all Deck's cards
+[*] --> INITIAL:  Player required start game
 INITIAL --> IN_GAME: DealToPiles
 IN_GAME --> [*]
 @enduml
