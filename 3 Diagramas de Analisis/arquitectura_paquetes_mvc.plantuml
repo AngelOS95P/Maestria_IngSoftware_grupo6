@@ -12,11 +12,17 @@ package Views {
 }
 
 package Controllers {
-    class ShuffleController
-    class DealController
-    class MoveCardController
-    class MovePileController
-    class ResetDeckController
+    class Login
+    class DealToWaste
+    class PileToPileMove
+    class PileToFoundationMove
+    class Undo
+    class FoundationToPileMove
+    class WasteToPileMove
+    class WasteToFondationMove
+    class WasteToStockMove
+    class Redo
+    class RestartGame
 } 
 package Models {
     class StackModel

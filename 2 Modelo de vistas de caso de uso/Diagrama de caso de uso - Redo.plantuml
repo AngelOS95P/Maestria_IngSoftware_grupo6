@@ -1,0 +1,10 @@
+@startuml DetailActivityDiagram
+title Klondike  - Case of Use Diagram - Redo (crtl-y)
+!pragma layout smetana
+
+state Redo
+state MoveCardtoNextPosition
+[*] --> Redo : User request Redo
+Redo --> MoveCardtoNextPosition: System checks the saved destination position
+MoveCardtoNextPosition -->[*]: User sees redo card 
+@enduml

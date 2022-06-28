@@ -1,0 +1,81 @@
+@startuml ObjectDiagram
+title Klondike  - Objects Diagram
+!pragma layout smetana
+
+object ":Klondike" as Klondike
+object ":Waste" as Waste
+object ":Stock" as Stock
+object ":Pile" as Pile3
+object ":Pile" as Pile4
+object ":Pile" as Pile5
+object ":Pile" as Pile6
+object ":Pile" as Pile7
+object ":Pile" as Pile8
+object ":Pile" as Pile9
+object ":Foundation" as Foundation1
+object ":Foundation" as Foundation2
+object ":Foundation" as Foundation3
+object ":Foundation" as Foundation4
+
+object ":Card" as Card1 {
+    figure: diamond
+    color: red
+    number: random
+    turned: true
+}
+object ":Card" as Card2 {
+    figure: heart
+    color: red
+    number: random
+    turned: true
+}
+
+object ":Card" as Card3 {
+    figure: clover
+    color: black
+    number: random
+    turned: true
+}
+
+object ":Card" as Card4 {
+    figure: heart
+    color: black
+    number: random
+    turned: true
+}
+
+
+Klondike *-right-> Foundation1
+Klondike *-right-> Foundation2
+Klondike *-right-> Foundation3
+Klondike *-right-> Foundation4
+Klondike *-left-> Stock
+Klondike *-left-> Waste
+note  "13 cards in ascending order of suit." as FNote
+Foundation1 .down FNote
+Foundation2 .down FNote
+Foundation3 .down FNote
+Foundation4 .down FNote
+
+
+Foundation1 *--> Card1
+Foundation2 *--> Card2
+Foundation3 *--> Card3
+Foundation4 *--> Card4
+
+
+
+Klondike *--> Pile3
+Klondike *--> Pile4
+Klondike *--> Pile5
+Klondike *--> Pile6
+Klondike *--> Pile7
+Klondike *--> Pile8
+Klondike *--> Pile9
+
+
+
+
+
+
+@enduml
