@@ -1,6 +1,6 @@
-@startuml ObjectDiagram
-title Klondike  - Objects Diagram
-!pragma layout smetana
+
+@startuml ObjectDiagramFinalState
+title Klondike  - Objects Diagram of Final State
 
 object ":Klondike" as Klondike
 object ":Waste" as Waste
@@ -44,26 +44,23 @@ object ":Card" as Card4 {
     turned: true
 }
 
-
-Klondike *-right-> Foundation1
-Klondike *-right-> Foundation2
-Klondike *-right-> Foundation3
-Klondike *-right-> Foundation4
+Klondike *-down--> Foundation1
+Klondike *-down--> Foundation2
+Klondike *-down--> Foundation3
+Klondike *-down--> Foundation4
 Klondike *-left-> Stock
 Klondike *-left-> Waste
-note  "13 cards in ascending order of suit." as FNote
-Foundation1 .down FNote
-Foundation2 .down FNote
-Foundation3 .down FNote
-Foundation4 .down FNote
 
+note  "13 cards in ascending\norder of each suit." as FNote
+Foundation1 .down. FNote
+Foundation2 .down. FNote
+Foundation3 .down. FNote
+Foundation4 .down. FNote
 
-Foundation1 *--> Card1
-Foundation2 *--> Card2
-Foundation3 *--> Card3
-Foundation4 *--> Card4
-
-
+Foundation1 *-down-> Card1
+Foundation2 *-down-> Card2
+Foundation3 *-down-> Card3
+Foundation4 *-down-> Card4
 
 Klondike *--> Pile3
 Klondike *--> Pile4
@@ -72,10 +69,5 @@ Klondike *--> Pile6
 Klondike *--> Pile7
 Klondike *--> Pile8
 Klondike *--> Pile9
-
-
-
-
-
 
 @enduml

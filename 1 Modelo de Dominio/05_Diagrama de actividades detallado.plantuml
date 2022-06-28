@@ -52,8 +52,8 @@ while ()
     case ()
       switch (isCardInFoundation)
         case ()
-          if (< CardNumber AND DiferentColor \n OR CardNumer is K) then (yes)
-           :PileToPileMove;
+          if (< CardNumber AND DiferentColor) then (yes)
+           :FoudationToPileMove;
           else (no)
           endif
       endswitch
@@ -64,7 +64,7 @@ while ()
     break;
   else (no)
     if (haveMoreMoves) then (no)
-      :TryAnother;
+      :RestartGame;
       break;
     else (yes)
     endif
