@@ -1,5 +1,5 @@
 @startuml Class Diagram
-title Klondike  - Class Diagram
+title Klondike  - Class Diagram Domain Vocabulary
 !pragma layout smetana
 
 class Klondike
