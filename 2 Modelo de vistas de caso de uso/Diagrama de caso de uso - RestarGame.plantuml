@@ -1,15 +1,15 @@
-@startuml DetailActivityDiagram
-title Klondike  - Case of Use Diagram - Restart
+@startuml UCRestartGame
+title Klondike  - RestartGame - User Case Diagram
 !pragma layout smetana
 
-state Restart
-state Shuffle
-state CardToStock
-state Deal
+state OUT_GAME
+state CARDS_SHUFFLE
+state CARDS_IN_DECK
+state START_GAME
 
-[*] --> Restart : User request Restart
-Restart --> Shuffle: System shuffle cards
-Shuffle --> Deal: System deal cards
-Deal --> CardToStock: System move leftover cards to stock
-CardToStock  -->[*]: User sees restarted game
+[*] --> OUT_GAME
+OUT_GAME --> CARDS_SHUFFLE: User request Restart
+CARDS_SHUFFLE --> START_GAME: System deal cards
+START_GAME --> [*]: User sees restarted game
+
 @enduml

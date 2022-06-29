@@ -1,6 +1,6 @@
-@startuml CUDealPile
+@startuml UCDealPile
 !pragma layout smetana
-title Klondike  - DealPile - Status Diagram
+title Klondike  - DealPile - Use Case Diagram
 
 state State1
 state State2

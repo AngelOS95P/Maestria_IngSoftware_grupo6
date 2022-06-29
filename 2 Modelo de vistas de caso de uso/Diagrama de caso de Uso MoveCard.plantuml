@@ -1,5 +1,7 @@
-@startuml UseCaseMoveCard 
+@startuml UCMoveCard
+title Klondike  - MoveCard - User Case Diagram
 !pragma layout smetana
+
 state State1
 state if <<choice>>
 state if2 <<choice>>
@@ -9,7 +11,8 @@ state State2
 state State3
 state State4
 state State5
-[*] --> State1: SelectCard 
+
+[*] --> State1: SelectCard
 State1 --> if: [isPreviousNumberAndDiferentColorInAnotherPile]
 if --> if2: [isCardAs]
 if --> State2: MoveCardToAnotherPile
@@ -23,4 +26,5 @@ State3 -->[*]
 State2--> [*]
 State4 --> [*]
 State5 --> [*]
+
 @enduml

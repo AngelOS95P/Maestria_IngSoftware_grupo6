@@ -1,0 +1,17 @@
+@startuml UCPileToPileMove
+!pragma layout smetana
+title Klondike - PileToPileMove  - Use Case Diagram
+
+state IN_GAME
+state CARD_IN_PILE
+state if <<choice>>
+state CARD_IN_ANOTHER_PILE
+
+[*] --> IN_GAME
+IN_GAME --> CARD_IN_PILE: Player take card from Foundation
+CARD_IN_PILE --> if: [< CardNumber AND DiferentColor \n OR CardNumer is K]
+if --> CARD_IN_ANOTHER_PILE: PileToPileMove
+if --> CARD_IN_PILE: TryAnotherMovement
+CARD_IN_ANOTHER_PILE--> [*]
+
+@enduml

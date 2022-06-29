@@ -1,5 +1,5 @@
 @startuml ActorsDiagram
-title Klondike  - UseCase Diagram
+title Klondike  - Actors and UseCase Diagram
 left to right direction
 !pragma layout smetana
 
