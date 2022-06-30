@@ -5,34 +5,44 @@ top to bottom direction
 ' left to right direction
 
 package Views {
-    class DeckView
+    class KlondikeView
+    class WasteView
     class StockView
     class PilaView
-    class CimientoView
+    class FoundationView
+    class LoguinView
+
+    KlondikeView O-down-> WasteView
+    KlondikeView O-down-> StockView
+    KlondikeView O-down-> PilaView
+    KlondikeView O-down-> FoundationView
+
+    KlondikeView .right.> LoguinView
+
 }
 
 package Controllers {
-    class Login
-    class DealToWaste
-    class PileToPileMove
-    class PileToFoundationMove
-    class Undo
-    class FoundationToPileMove
-    class WasteToPileMove
-    class WasteToFondationMove
-    class WasteToStockMove
-    class Redo
-    class RestartGame
+    class LoginController
+    class DealToWasteController
+    class PileToPileMoveController
+    class PileToFoundationMoveController
+    class UndoController
+    class FoundationToPileMoveController
+    class WasteToPileMoveController
+    class WasteToFondationMoveController
+    class WasteToStockMoveController
+    class RedoController
+    class RestartGameController
 } 
 package Models {
     class StackModel
     class CardModel
     class PlayerModel
-    class DeckModel
+    class WasteModel
     class FoundationModel
     class PileModel
     class StockModel
-    StackModel <|-down- DeckModel
+    StackModel <|-down- WasteModel
     StackModel <|-down- FoundationModel
     StackModel <|-down- PileModel
     StackModel <|-down- StockModel

@@ -1,0 +1,27 @@
+@startuml ContextDiagramUseCaseWasteToPileMove
+!pragma layout smetana
+title Klondike  - UseCaseWasteToPileMove - Context Diagram
+left to right direction
+
+actor Player
+rectangle WasteView
+rectangle WasteToPileMoveController
+' rectangle Deck
+' rectangle StockView
+rectangle WasteModel
+rectangle PileModel
+rectangle CardModel
+rectangle StackModel
+
+rectangle SavePosition
+
+Player --> WasteView: RequestMoveCard
+WasteView --> WasteToPileMoveController: moveCard()
+WasteToPileMoveController ...> CardModel: getCard()
+WasteToPileMoveController O--> StackModel
+StackModel <|-- WasteModel: getCard()
+StackModel <|-- PileModel: setCard()
+WasteToPileMoveController --> SavePosition: setSavePosition()
+
+
+@enduml
