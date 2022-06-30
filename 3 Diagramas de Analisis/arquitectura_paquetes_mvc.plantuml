@@ -5,10 +5,20 @@ top to bottom direction
 ' left to right direction
 
 package Views {
-    class DeckView
+    class KlondikeView
+    class WasteView
     class StockView
     class PilaView
-    class CimientoView
+    class FoundationView
+    class LoguinView
+
+    KlondikeView O-down-> WasteView
+    KlondikeView O-down-> StockView
+    KlondikeView O-down-> PilaView
+    KlondikeView O-down-> FoundationView
+
+    KlondikeView .right.> LoguinView
+
 }
 
 package Controllers {
