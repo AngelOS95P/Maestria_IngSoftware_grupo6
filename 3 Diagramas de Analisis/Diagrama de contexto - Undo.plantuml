@@ -1,0 +1,20 @@
+@startuml redoContextDiagram
+title Klondike - Undo - Context Diagram
+!pragma layout smetana
+left to right direction
+
+actor Player
+rectangle UndoView
+
+rectangle UndoController
+rectangle SavePosition
+rectangle RecoverPosition
+rectangle CardModel
+
+
+Player --> UndoView : RequestUndo
+UndoView --> RecoverPosition: getLastPosition()
+RecoverPosition --> UndoController: Undo
+UndoController O--> CardModel
+UndoController --> SavePosition: setSavePosition()
+@enduml
