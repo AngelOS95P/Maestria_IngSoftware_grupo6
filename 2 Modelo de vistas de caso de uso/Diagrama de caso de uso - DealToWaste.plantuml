@@ -1,0 +1,16 @@
+@startuml UCDealStock
+!pragma layout smetana
+title Klondike  - DealToWaste - Use Case Diagram
+
+state IN_GAME
+state CARDS_IN_STOCK
+state WASTE_BUILD
+state WASTE_READY
+
+[*] --> IN_GAME
+IN_GAME --> CARDS_IN_STOCK: PlayerRequireDealToWaste
+CARDS_IN_STOCK --> WASTE_BUILD: PlayerSelectDeal
+WASTE_BUILD --> WASTE_READY: SystemDealAndTurnUpCards
+WASTE_READY --> [*]
+
+@enduml

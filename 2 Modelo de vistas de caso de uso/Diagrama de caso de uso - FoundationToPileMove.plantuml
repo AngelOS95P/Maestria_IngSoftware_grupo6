@@ -11,7 +11,7 @@ state CARD_IN_PILE
 IN_GAME --> CARD_IN_FOUNDATION: Player take card from Foundation
 CARD_IN_FOUNDATION --> if: [< CardNumber AND DiferentColor]
 if --> CARD_IN_PILE: FoundationToPileMove
-if --> CARD_IN_FOUNDATION: TryAnotherMovement
+if --> [*]: TryAnotherMovement
 CARD_IN_PILE--> [*]
 
 @enduml
