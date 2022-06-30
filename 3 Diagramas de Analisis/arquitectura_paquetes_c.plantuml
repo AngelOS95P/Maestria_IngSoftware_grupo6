@@ -1,0 +1,20 @@
+@startuml ArquitecturaMVC
+!pragma layout smetana
+
+top to bottom direction
+
+package Controllers {
+    class LoginController
+    class DealToWasteController
+    class PileToPileMoveController
+    class PileToFoundationMoveController
+    class UndoController
+    class FoundationToPileMoveController
+    class WasteToPileMoveController
+    class WasteToFondationMoveController
+    class WasteToStockMoveController
+    class RedoController
+    class RestartGameController
+} 
+
+@enduml 

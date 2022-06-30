@@ -1,4 +1,4 @@
-@startuml redoContextDiagram
+@startuml ContextDiagramUndo
 title Klondike - Undo - Context Diagram
 !pragma layout smetana
 left to right direction

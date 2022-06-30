@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="347px" preserveAspectRatio="none" style="width:401px;height:347px;background:#FFFFFF;" version="1.1" viewBox="0 0 401 347" width="401px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="340" x="23.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="330" x="28.75" y="23.5352">Klondike  - Redo (crtl-y) - Use Case Diagram</text><g id="REDO_REQUEST"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="40.5" y="115.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="40.5" x2="168.5" y1="141.9766" y2="141.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="50.5" y="134.0234">REDO_REQUEST</text></g><g id="CARD_IN_NEXT_POSITION"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="195" x="7" y="218.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="202" y1="244.9766" y2="244.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="17" y="237.0234">CARD_IN_NEXT_POSITION</text></g><ellipse cx="104.5" cy="48.4883" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="104.5" cy="331.4883" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="105" cy="331.9883" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><path d="M104.5,62.6335 C104.5,75.7683 104.5,97.9782 104.5,115.1543 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104.5,115.1543,108.5,106.1543,104.5,110.1543,100.5,106.1543,104.5,115.1543" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="105.5" y="94.0566">User request Redo</text><path d="M104.5,165.6803 C104.5,181.554 104.5,202.2392 104.5,218.1436 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104.5,218.1436,108.5,209.1436,104.5,213.1436,100.5,209.1436,104.5,218.1436" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="288" x="105.5" y="197.0566">System checks the saved destination position</text><path d="M104.5,268.5347 C104.5,285.6334 104.5,307.8326 104.5,321.074 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104.5,321.074,108.5,312.074,104.5,316.074,100.5,312.074,104.5,321.074" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="105.5" y="300.0566">User sees redo card</text><!--MD5=[6d94d90d600259b6013967e01dc00559]
+@startuml UCRedo
+!pragma layout smetana
+title Klondike  - Redo (crtl-y) - Use Case Diagram
+
+state REDO_REQUEST
+state CARD_IN_NEXT_POSITION
+
+[*] - -> REDO_REQUEST: User request Redo
+REDO_REQUEST - -> CARD_IN_NEXT_POSITION: System checks the saved destination position
+CARD_IN_NEXT_POSITION - -> [*]: User sees redo card
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 05:55:52 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

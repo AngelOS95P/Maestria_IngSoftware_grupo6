@@ -1,6 +1,6 @@
 @startuml UCWasteToPileMove
 !pragma layout smetana
-title Klondike  - UseCaseWasteToPileMove - User Case Diagram
+title Klondike  - WasteToPileMove - User Case Diagram
 
 state IN_GAME
 state CARD_IN_WASTE

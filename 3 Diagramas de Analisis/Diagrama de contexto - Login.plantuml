@@ -1,4 +1,4 @@
-@startuml KlondikeContextDiagram
+@startuml ContextDiagramLogin
 title Klondike  - Login - Context Diagram
 !pragma layout smetana
 

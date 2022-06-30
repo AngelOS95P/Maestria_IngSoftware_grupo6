@@ -1,0 +1,56 @@
+@startuml StateDiagram
+title Klondike  - State Diagram - Card
+!pragma layout smetana
+
+state CardInDeck
+state CardInPile
+state CardInStock
+state CardInWaste
+state CardInFoundation
+state GameFinal <<choice>>
+state RestartGame
+state GameWin
+state PPDecision <<choice>>
+state PFDecision <<choice>>
+state FPDecision <<choice>>
+state WPDecision <<choice>>
+state WFDecision <<choice>>
+
+[*] -down-> CardInDeck
+CardInDeck --> CardInDeck: Shuflle
+CardInDeck -left-> CardInStock: DealToStock
+CardInDeck -down-> CardInPile: DealToPile
+
+
+CardInStock -down-> CardInWaste: DealToWaste
+CardInWaste -up-> CardInStock: WasteToStockMove
+
+CardInWaste -right-> WPDecision: [< CardNumber AND DiferentColor \n OR CardNumer is K]
+CardInWaste -down--> WFDecision:[> CardNumber AND SameColor \n OR CardNumer is A]
+WPDecision -right-> CardInPile: WasteToPileMove
+
+
+CardInPile -down-> PFDecision: [> CardNumber AND SameColor \n OR CardNumer is A]
+PFDecision -down-> CardInFoundation: PileToFoundationMove
+
+CardInPile -right-> PPDecision: [< CardNumber AND DiferentColor \n OR CardNumer is K]
+PPDecision -left-> CardInPile: PileToPileMove
+' ' PFDecision --> CardInPile
+' ' WFDecision --> CardInFoundation
+
+WFDecision -right-> CardInFoundation: WasteToFoundationMove
+CardInFoundation -right-> FPDecision: [< CardNumber AND DiferentColor]
+FPDecision -up-> CardInPile: FoundationToPileMove
+
+
+
+
+
+CardInFoundation -down-> GameFinal
+GameFinal --> RestartGame: [NoMoreMoves]
+GameFinal --> GameWin: [AreFoundationsFull]
+
+RestartGame --> [*]
+GameWin --> [*]
+
+@enduml

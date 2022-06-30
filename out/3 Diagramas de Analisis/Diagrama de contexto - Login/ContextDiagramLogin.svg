@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="430px" preserveAspectRatio="none" style="width:297px;height:430px;background:#FFFFFF;" version="1.1" viewBox="0 0 297 430" width="297px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="279" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="269" x="10" y="23.5352">Klondike  - Login - Context Diagram</text><!--MD5=[de2effd8dc5bf946a609466312d0f75f]
+entity Player--><g id="elem_Player"><ellipse cx="42.75" cy="51.0234" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M42.75,59.0234 L42.75,86.0234 M29.75,67.0234 L55.75,67.0234 M42.75,86.0234 L29.75,101.0234 M42.75,86.0234 L55.75,101.0234 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="22.25" y="116.0586">Player</text></g><!--MD5=[156723f38c68f5a944f1b76a14621b0a]
+entity LoginView--><g id="elem_LoginView"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="66.75" y="171.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="76.75" y="195.0586">LoginView</text></g><!--MD5=[34617022f1a5ee5399747a3c46871a99]
+entity LoginController--><g id="elem_LoginController"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="47.75" y="260.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="57.75" y="284.0586">LoginController</text></g><!--MD5=[aeda5093ad4717b25013b17af4dbd144]
+entity Collaboration_Klondike--><g id="elem_Collaboration_Klondike"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="91.25" y="62.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="101.25" y="86.0586">Collaboration_Klondike</text></g><!--MD5=[d311872fc4cd56af8bacdb94d4b77178]
+entity PlayerModel--><g id="elem_PlayerModel"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="60.25" y="387.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="70.25" y="411.0586">PlayerModel</text></g><path d="M36.0267,118.7869 C35.7087,130.6461 37.4294,143.3216 43.75,153.5234 C49.1345,162.2144 57.4317,168.8436 66.4025,173.8651 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="66.4025,173.8651,60.5029,165.9787,62.0395,171.4228,56.5954,172.9594,66.4025,173.8651" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="44.75" y="150.0918">login(playerName)</text><path d="M111.75,207.7118 C111.75,222.9641 111.75,245.1293 111.75,260.3707 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="111.75,260.3707,115.75,251.3707,111.75,255.3707,107.75,251.3707,111.75,260.3707" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="112.75" y="239.0918">login(playerName)</text><path d="M111.75,296.6421 C111.75,320.4456 111.75,363.3036 111.75,387.2104 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="111.75,387.2104,115.75,378.2104,111.75,382.2104,107.75,378.2104,111.75,387.2104" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="112.75" y="347.0918">setInfo()</text><path d="M179.6653,98.5948 C177.0859,114.1058 171.4992,137.019 159.75,153.5234 C154.9651,160.245 148.4832,166.1835 141.8323,171.1721 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="179.6653,98.5948,174.2431,106.8167,178.8451,103.527,182.1347,108.129,179.6653,98.5948" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="168.75" y="150.0918">startGame(player)</text><!--MD5=[4910a856b1211be291f03d958a08853d]
+@startuml ContextDiagramLogin
+title Klondike  - Login - Context Diagram
+!pragma layout smetana
+
+actor Player
+rectangle LoginView
+rectangle LoginController
+rectangle Collaboration_Klondike
+rectangle PlayerModel
+
+Player - -> LoginView: login(playerName)
+LoginView - -> LoginController: login(playerName)
+LoginController -down..> PlayerModel: setInfo()
+LoginView -up-> Collaboration_Klondike: startGame(player)
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 05:55:52 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

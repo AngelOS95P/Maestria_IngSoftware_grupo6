@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="347px" preserveAspectRatio="none" style="width:326px;height:347px;background:#FFFFFF;" version="1.1" viewBox="0 0 326 347" width="326px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="291" x="10.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="281" x="15.5" y="23.5352">Klondike  - Undo - User Case Diagram</text><g id="UNDO_REQUEST"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="38.5" y="115.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="38.5" x2="169.5" y1="141.9766" y2="141.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="48.5" y="134.0234">UNDO_REQUEST</text></g><g id="CARD_IN_PAST_POSITION"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="7" y="218.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="201" y1="244.9766" y2="244.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="17" y="237.0234">CARD_IN_PAST_POSITION</text></g><ellipse cx="104" cy="48.4883" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="104" cy="331.4883" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="104.5" cy="331.9883" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><path d="M104,62.6335 C104,75.7683 104,97.9782 104,115.1543 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104,115.1543,108,106.1543,104,110.1543,100,106.1543,104,115.1543" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="105" y="94.0566">User request undo</text><path d="M104,165.6803 C104,181.554 104,202.2392 104,218.1436 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104,218.1436,108,209.1436,104,213.1436,100,209.1436,104,218.1436" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="213" x="105" y="197.0566">System check saved past position</text><path d="M104,268.5347 C104,285.6334 104,307.8326 104,321.074 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104,321.074,108,312.074,104,316.074,100,312.074,104,321.074" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="105" y="300.0566">User sees undo card</text><!--MD5=[b3c5c1631a02fc05407eeebf8f4cef33]
+@startuml UCUndo
+title Klondike  - Undo - User Case Diagram
+!pragma layout smetana
+
+state UNDO_REQUEST
+state CARD_IN_PAST_POSITION
+
+[*] - -> UNDO_REQUEST : User request undo
+UNDO_REQUEST - -> CARD_IN_PAST_POSITION: System check saved past position
+CARD_IN_PAST_POSITION - -> [*]: User sees undo card
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 05:55:52 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

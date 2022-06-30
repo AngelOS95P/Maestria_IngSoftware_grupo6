@@ -1,0 +1,25 @@
+@startuml ArquitecturaMVC
+!pragma layout smetana
+
+top to bottom direction
+' left to right direction
+
+package Views {
+    class KlondikeView
+    class WasteView
+    class StockView
+    class PilaView
+    class FoundationView
+    class LoguinView
+
+    KlondikeView O-down-> WasteView
+    KlondikeView O-down-> StockView
+    KlondikeView O-down-> PilaView
+    KlondikeView O-down-> FoundationView
+
+    KlondikeView .right.> LoguinView
+
+}
+
+
+@enduml 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="481px" preserveAspectRatio="none" style="width:444px;height:481px;background:#FFFFFF;" version="1.1" viewBox="0 0 444 481" width="444px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="426" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="416" x="10" y="23.5352">Klondike  - UseCaseWasteToPileMove - Context Diagram</text><!--MD5=[de2effd8dc5bf946a609466312d0f75f]
+entity Player--><g id="elem_Player"><ellipse cx="222.25" cy="51.0234" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M222.25,59.0234 L222.25,86.0234 M209.25,67.0234 L235.25,67.0234 M222.25,86.0234 L209.25,101.0234 M222.25,86.0234 L235.25,101.0234 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="201.75" y="116.0586">Player</text></g><!--MD5=[b430c7b43a59ba96139970ac53fb4a71]
+entity WasteView--><g id="elem_WasteView"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="176.25" y="171.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="186.25" y="195.0586">WasteView</text></g><!--MD5=[116f6fe7cba2ea3cce299698f55b695f]
+entity WasteToPileMoveController--><g id="elem_WasteToPileMoveController"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="118.25" y="260.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="128.25" y="284.0586">WasteToPileMoveController</text></g><!--MD5=[be309e1072f6cf4018c5042a27bd9d90]
+entity WasteModel--><g id="elem_WasteModel"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="166.25" y="438.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="176.25" y="462.0586">WasteModel</text></g><!--MD5=[6be7f54325e5807ee2785c433965a789]
+entity PileModel--><g id="elem_PileModel"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="286.25" y="438.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="296.25" y="462.0586">PileModel</text></g><!--MD5=[21bd99f6779f42d570c72f27248b4aa0]
+entity CardModel--><g id="elem_CardModel"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="48.75" y="438.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="58.75" y="462.0586">CardModel</text></g><!--MD5=[f3fdfeb3d6c17ff30cd3467b1042a2bd]
+entity StackModel--><g id="elem_StackModel"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="173.25" y="349.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="183.25" y="373.0586">StackModel</text></g><!--MD5=[e2aabbe86860f03f4048795bb6d0424c]
+entity SavePosition--><g id="elem_SavePosition"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="289.25" y="349.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="299.25" y="373.0586">SavePosition</text></g><path d="M222.25,118.6466 C222.25,136.513 222.25,157.0762 222.25,171.2466 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="222.25,171.2466,226.25,162.2466,222.25,166.2466,218.25,162.2466,222.25,171.2466" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="223.25" y="150.0918">RequestMoveCard</text><path d="M222.25,207.7118 C222.25,222.9641 222.25,245.1293 222.25,260.3707 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="222.25,260.3707,226.25,251.3707,222.25,255.3707,218.25,251.3707,222.25,260.3707" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="223.25" y="239.0918">moveCard()</text><path d="M172.8102,296.5761 C148.2819,307.7035 120.6701,324.8277 105.25,349.5234 C88.2297,376.7821 90.1886,415.9554 93.1898,438.254 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="93.1898,438.254,95.9535,428.8009,92.5228,433.2987,88.025,429.868,93.1898,438.254" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="106.25" y="372.5918">getCard()</text><path d="M222.25,296.7118 C222.25,311.9641 222.25,334.1293 222.25,349.3707 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="222.25,296.7118,218.25,302.7118,222.25,308.7118,226.25,302.7118,222.25,296.7118" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="222.25,349.3707,226.25,340.3707,222.25,344.3707,218.25,340.3707,222.25,349.3707" style="stroke:#181818;stroke-width:1.0;"/><path d="M221.2622,385.7118 C220.3856,400.9641 219.1117,423.1293 218.2358,438.3707 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="221.2622,385.7118,214.354,401.3412,226.3343,402.0297,221.2622,385.7118" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="221.25" y="417.0918">getCard()</text><path d="M256.4541,385.5527 C265.5548,390.7642 275.1099,396.8905 283.25,403.5234 C295.7708,413.726 307.7873,427.495 316.3969,438.3016 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="256.4541,385.5527,267.3571,398.7104,273.3203,388.297,256.4541,385.5527" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="301.25" y="417.0918">setCard()</text><path d="M245.9581,296.7118 C266.9958,311.9641 297.5684,334.1293 318.5911,349.3707 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="318.5911,349.3707,313.6525,340.8496,314.5431,346.4359,308.9567,347.3265,318.5911,349.3707" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="294.25" y="328.0918">setSavePosition()</text><!--MD5=[c7d1b0a5c84f198c167ee9f25bf76d6a]
+@startuml ContextDiagramUseCaseWasteToPileMove
+!pragma layout smetana
+title Klondike  - UseCaseWasteToPileMove - Context Diagram
+left to right direction
+
+actor Player
+rectangle WasteView
+rectangle WasteToPileMoveController
+' rectangle Deck
+' rectangle StockView
+rectangle WasteModel
+rectangle PileModel
+rectangle CardModel
+rectangle StackModel
+
+rectangle SavePosition
+
+Player - -> WasteView: RequestMoveCard
+WasteView - -> WasteToPileMoveController: moveCard()
+WasteToPileMoveController ...> CardModel: getCard()
+WasteToPileMoveController O- -> StackModel
+StackModel <|- - WasteModel: getCard()
+StackModel <|- - PileModel: setCard()
+WasteToPileMoveController - -> SavePosition: setSavePosition()
+
+
+@enduml
+
+@startuml ContextDiagramUseCaseWasteToPileMove
+!pragma layout smetana
+title Klondike  - UseCaseWasteToPileMove - Context Diagram
+left to right direction
+
+actor Player
+rectangle WasteView
+rectangle WasteToPileMoveController
+rectangle WasteModel
+rectangle PileModel
+rectangle CardModel
+rectangle StackModel
+
+rectangle SavePosition
+
+Player - -> WasteView: RequestMoveCard
+WasteView - -> WasteToPileMoveController: moveCard()
+WasteToPileMoveController ...> CardModel: getCard()
+WasteToPileMoveController O- -> StackModel
+StackModel <|- - WasteModel: getCard()
+StackModel <|- - PileModel: setCard()
+WasteToPileMoveController - -> SavePosition: setSavePosition()
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 05:55:52 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>
