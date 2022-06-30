@@ -1,15 +1,17 @@
-@startuml resetDeckUseCaseSpecification
+@startuml UCResetDeck
 !pragma layout smetana
+title Klondike  - ResetDeck - Use Case Diagram
 
-title Klondike  - Use Case - ResetDeck
 state OUT_GAME
-state State 
+state IN_WASTE
 state IN_GAME
-state EXIT
+state RESTART_GAME
+
 [*] --> OUT_GAME
-OUT_GAME --> State: Deck is Empty 
-State --> IN_GAME: Stock is the new Deck
-State --> EXIT: No moves possible
+OUT_GAME --> IN_WASTE: See waste is empty
+IN_WASTE --> IN_GAME: Past the waste to the Stock
+IN_WASTE --> RESTART_GAME: No more movemnets
 IN_GAME --> [*]
-EXIT --> [*]
+RESTART_GAME --> [*]
+
 @enduml

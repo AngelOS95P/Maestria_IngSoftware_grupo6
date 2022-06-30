@@ -1,11 +1,12 @@
-@startuml DetailActivityDiagram
-title Klondike  - Case of Use Diagram - Undo
+@startuml UCUndo
+title Klondike  - Undo - User Case Diagram
 !pragma layout smetana
 
-state Undo
+state UNDO_REQUEST
+state CARD_IN_PAST_POSITION
 
-state MoveCardtoPastPosition
-[*] --> Undo : User request undo
-Undo --> MoveCardtoPastPosition: System check saved past position
-MoveCardtoPastPosition -->[*]: User sees undo card 
+[*] --> UNDO_REQUEST : User request undo
+UNDO_REQUEST --> CARD_IN_PAST_POSITION: System check saved past position
+CARD_IN_PAST_POSITION --> [*]: User sees undo card
+
 @enduml

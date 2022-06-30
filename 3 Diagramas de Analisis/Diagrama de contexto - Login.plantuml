@@ -1,0 +1,16 @@
+@startuml KlondikeContextDiagram
+title Klondike  - Login - Context Diagram
+!pragma layout smetana
+
+actor Player
+rectangle LoginView
+rectangle LoginController
+rectangle Collaboration_Klondike
+rectangle PlayerModel
+
+Player --> LoginView: login(playerName)
+LoginView --> LoginController: login(playerName)
+LoginController -down..> PlayerModel: setInfo()
+LoginView -up-> Collaboration_Klondike: startGame(player)
+
+@enduml

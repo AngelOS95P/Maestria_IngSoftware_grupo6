@@ -1,6 +1,6 @@
 @startuml UseCaseContextDiagram
 !pragma layout smetana
-title Klondike  - UseCase - Context Diagram
+title Klondike  - Context Diagram - User Case Relationship
 
 state INITIAL
 state GAME_READY
@@ -10,22 +10,18 @@ state EXIT
 state if_finished <<choice>>
 state if_resumed <<choice>>
 
-
 note "PileToPileMove\nPileToFoundationMove\nWasteToFoundationMove\nWasteToPileMove\nFondationToPileMove\nWaisteToStockMove\nUndo\nRedo" as PNote
 
-
-if_finished --> PNote
+if_finished ---> PNote
 [*] --> INITIAL: Login
-
-INITIAL -->GAME_READY: StartGame 
+INITIAL --> GAME_READY: StartGame
 GAME_READY--> IN_GAME: DealToWaste
-IN_GAME --> if_finished: MoveCard 
+IN_GAME --> if_finished: MoveCard
 if_finished --> IN_GAME
 if_finished --> OUT_GAME: [finished]
 OUT_GAME --> if_resumed: ResetGame
 if_resumed --> INITIAL: [continued]
 if_resumed --> EXIT
 EXIT --> [*]
-
 
 @enduml

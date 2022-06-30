@@ -1,10 +1,12 @@
-@startuml UseCaseStartGame
+@startuml UCStartGame
 !pragma layout smetana
 
-title Klondike  - Use Case - StartGame
+title Klondike  - StartGame - User Case Diagram
 state INITIAL
 state IN_GAME
+
 [*] --> INITIAL:  Player required start game
 INITIAL --> IN_GAME: DealToPiles
-IN_GAME --> [*]
+IN_GAME --> [*]: Start
+
 @enduml

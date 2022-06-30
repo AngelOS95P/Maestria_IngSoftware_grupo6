@@ -1,10 +1,13 @@
-@startuml UseCaseMovePile
+@startuml UCMovePile
+title Klondike  - MovePile - User Case Diagram
 !pragma layout smetana
+
 state State1
 state if <<choice>>
 state if2 <<choice>>
 state State2
 state State3
+
 [*] --> State1: SelectPile
 State1 --> if: [isFirstCardOfPilePreviousNumberAndDiferentColorInAnotherPile]
 if --> if2: [isFirstCardOfPile"K"AndSomePileIsEmpty]

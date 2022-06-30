@@ -1,10 +1,12 @@
-@startuml DetailActivityDiagram
-title Klondike  - Case of Use Diagram - Redo (crtl-y)
+@startuml UCRedo
 !pragma layout smetana
+title Klondike  - Redo (crtl-y) - Use Case Diagram
 
-state Redo
-state MoveCardtoNextPosition
-[*] --> Redo : User request Redo
-Redo --> MoveCardtoNextPosition: System checks the saved destination position
-MoveCardtoNextPosition -->[*]: User sees redo card 
+state REDO_REQUEST
+state CARD_IN_NEXT_POSITION
+
+[*] --> REDO_REQUEST: User request Redo
+REDO_REQUEST --> CARD_IN_NEXT_POSITION: System checks the saved destination position
+CARD_IN_NEXT_POSITION --> [*]: User sees redo card
+
 @enduml

@@ -1,6 +1,6 @@
-@startuml CUDealStock
+@startuml UCDealStock
 !pragma layout smetana
-title Klondike  - DealStock - Status Diagram
+title Klondike  - DealStock - Use Case Diagram
 
 state PileBuild
 state DeckBuild

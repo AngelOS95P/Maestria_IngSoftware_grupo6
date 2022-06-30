@@ -1,23 +1,26 @@
-@startuml UseCaseWasteToPileMove
+@startuml UCWasteToPileMove
 !pragma layout smetana
-title Klondike  - Case of Use Diagram - UseCaseWasteToPileMove
-
+title Klondike  - UseCaseWasteToPileMove - User Case Diagram
 
 state IN_GAME
-state CARD_SELECTED
+state CARD_IN_WASTE
 state if <<choice>>
-state if2 <<choice>>
-
-state CardToPile
+state CARD_IN_PILE
 
 [*] --> IN_GAME
+<<<<<<< HEAD
+IN_GAME --> CARD_IN_WASTE: Player take card from Waste
+CARD_IN_WASTE --> if: [< CardNumber AND DiferentColor \n OR CardNumer is K]
+if --> CARD_IN_PILE: WasteToPileMove
+if --> CARD_IN_WASTE: TryAnotherMovement
+CARD_IN_PILE --> [*]
+=======
 IN_GAME --> CARD_SELECTED: Player take card from Waste
 CARD_SELECTED --> if: [is"K"AndSomePileIsEmpty]
 if --> if2:[isPreviousNumberAndDiferentColorInAnotherPile]
 if --> CardToPile: MoveCardToAnotherPile
 if2 --> CardToPile: MoveCardToAnotherPile
 if2 --> [*]
-
-CardToPile--> [*]
+>>>>>>> 1371916615e431dbd0a6185e0d13c7b3ba10ccd8
 
 @enduml
