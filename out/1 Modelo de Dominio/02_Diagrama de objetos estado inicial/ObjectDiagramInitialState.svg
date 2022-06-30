@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="610px" preserveAspectRatio="none" style="width:2303px;height:610px;background:#FFFFFF;" version="1.1" viewBox="0 0 2303 610" width="2303px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="322" x="983.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="312" x="988.5" y="23.5352">Klondike  - Objects Diagram - Initial State</text><g id="elem_Klondike"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="78" x="1054" y="110.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1061" y="125.8342">:Klondike</text><line style="stroke:#181818;stroke-width:0.5;" x1="1055" x2="1131" y1="130.7873" y2="130.7873"/></g><g id="elem_Waste"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="58" x="159" y="110.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="166" y="125.8342">:Waste</text><line style="stroke:#181818;stroke-width:0.5;" x1="160" x2="216" y1="130.7873" y2="130.7873"/></g><g id="elem_Stock"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="55" x="980.5" y="110.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="987.5" y="125.8342">:Stock</text><line style="stroke:#181818;stroke-width:0.5;" x1="981.5" x2="1034.5" y1="130.7873" y2="130.7873"/></g><g id="elem_Pile3"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="1825" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1832" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="1826" x2="1866" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile4"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="2079" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="2086" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="2080" x2="2120" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile5"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="267" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="274" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="268" x2="308" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile6"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="593" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="600" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="594" x2="634" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile7"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="945" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="952" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="946" x2="986" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile8"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="1207" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1214" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="1208" x2="1248" y1="260.7873" y2="260.7873"/></g><g id="elem_Pile9"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="42" x="1554" y="240.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1561" y="255.8342">:Pile</text><line style="stroke:#181818;stroke-width:0.5;" x1="1555" x2="1595" y1="260.7873" y2="260.7873"/></g><g id="elem_Foundation"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="97" x="1150.5" y="110.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1157.5" y="125.8342">:Foundation</text><line style="stroke:#181818;stroke-width:0.5;" x1="1151.5" x2="1246.5" y1="130.7873" y2="130.7873"/></g><g id="elem_Card1"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="622" y="81.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="667.5" y="96.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="623" x2="749" y1="101.7873" y2="101.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="628" y="119.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="628" y="135.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="628" y="152.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="628" y="168.7873">turned: false</text></g><g id="elem_Card21"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="97" x="43.5" y="81.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="73.5" y="96.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="44.5" x2="139.5" y1="101.7873" y2="101.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="49.5" y="119.3225">color: black</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="49.5" y="135.8107">number: 7</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="49.5" y="152.299">figure: heart</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="49.5" y="168.7873">turned: true</text></g><g id="elem_Card22"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="102" x="7" y="211.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="39.5" y="226.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="108" y1="231.7873" y2="231.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="13" y="249.3225">color: black</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="13" y="265.8107">number: 4</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="13" y="282.299">figure: clover</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="13" y="298.7873">turned: true</text></g><g id="elem_Card23"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="122" x="127" y="211.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="169.5" y="226.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="128" x2="248" y1="231.7873" y2="231.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="133" y="249.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="133" y="265.8107">number: Q</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="133" y="282.299">figure: diamond</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="133" y="298.7873">turned: true</text></g><g id="elem_Card3"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="97" x="1874.5" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1904.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1875.5" x2="1970.5" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1880.5" y="379.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1880.5" y="395.8107">number: K</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1880.5" y="412.299">figure: heart</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1880.5" y="428.7873">turned: true</text></g><g id="elem_Card4"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="122" x="2174" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="2216.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="2175" x2="2295" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="2180" y="379.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="2180" y="395.8107">number: 9</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="2180" y="412.299">figure: diamond</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="2180" y="428.7873">turned: true</text></g><g id="elem_Card41"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="1990" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="2035.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1991" x2="2117" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1996" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1996" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1996" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1996" y="428.7873">turned: false</text></g><g id="elem_Card5"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="97" x="70.5" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="100.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="71.5" x2="166.5" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="76.5" y="379.3225">color: black</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="76.5" y="395.8107">number: 3</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="76.5" y="412.299">figure: heart</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="76.5" y="428.7873">turned: true</text></g><g id="elem_Card51"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="224" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="269.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="225" x2="351" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="230" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="230" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="230" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="230" y="428.7873">turned: false</text></g><g id="elem_Card6"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="122" x="418" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="460.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="419" x2="539" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="424" y="379.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="424" y="395.8107">number: J</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="424" y="412.299">figure: diamond</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="424" y="428.7873">turned: true</text></g><g id="elem_Card61"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="596" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="641.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="597" x2="723" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="602" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="602" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="602" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="602" y="428.7873">turned: false</text></g><g id="elem_Card7"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="102" x="790" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="822.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="791" x2="891" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="796" y="379.3225">color: black</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="796" y="395.8107">number: 9</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="796" y="412.299">figure: clover</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="796" y="428.7873">turned: true</text></g><g id="elem_Card71"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="948" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="993.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="949" x2="1075" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="954" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="954" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="954" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="954" y="428.7873">turned: false</text></g><g id="elem_Card8"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="97" x="1141.5" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1171.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1142.5" x2="1237.5" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1147.5" y="379.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1147.5" y="395.8107">number: 7</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1147.5" y="412.299">figure: heart</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1147.5" y="428.7873">turned: true</text></g><g id="elem_Card81"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="1295" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1340.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1296" x2="1422" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1301" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1301" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1301" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1301" y="428.7873">turned: false</text></g><g id="elem_Card9"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="97" x="1488.5" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1518.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1489.5" x2="1584.5" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1494.5" y="379.3225">color: red</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1494.5" y="395.8107">number: A</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1494.5" y="412.299">figure: heart</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1494.5" y="428.7873">turned: true</text></g><g id="elem_Card91"><rect fill="#F1F1F1" height="94.4414" style="stroke:#181818;stroke-width:0.5;" width="128" x="1642" y="341.299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1687.5" y="356.8342">:Card</text><line style="stroke:#181818;stroke-width:0.5;" x1="1643" x2="1769" y1="361.7873" y2="361.7873"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1648" y="379.3225">color: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1648" y="395.8107">number: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1648" y="412.299">figure: random</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1648" y="428.7873">turned: false</text></g><g id="elem_FNote"><path d="M1312.5,115.799 L1312.5,141.1096 L1387.5,141.1096 L1387.5,125.799 L1377.5,115.799 L1312.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1377.5,115.799 L1377.5,125.799 L1387.5,125.799 L1377.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="1318.5" y="133.3674">Is Empty</text></g><g id="elem_FNNote"><path d="M1265.5,115.799 L1265.5,141.1096 L1294.5,141.1096 L1294.5,125.799 L1284.5,115.799 L1265.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1284.5,115.799 L1284.5,125.799 L1294.5,125.799 L1284.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1271.5" y="133.3674">4</text></g><g id="elem_C1N"><path d="M816,107.799 L816,148.4201 L962,148.4201 L962,117.799 L952,107.799 L816,107.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M952,107.799 L952,117.799 L962,117.799 L952,107.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="822" y="125.3674">Stock have 21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="826" y="140.6779">cards turned down.</text></g><g id="elem_C4N"><path d="M768.5,115.799 L768.5,141.1096 L797.5,141.1096 L797.5,125.799 L787.5,115.799 L768.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M787.5,115.799 L787.5,125.799 L797.5,125.799 L787.5,115.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="774.5" y="133.3674">1</text></g><g id="elem_C5N"><path d="M370.5,375.799 L370.5,401.1096 L399.5,401.1096 L399.5,385.799 L389.5,375.799 L370.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M389.5,375.799 L389.5,385.799 L399.5,385.799 L389.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="376.5" y="393.3674">2</text></g><g id="elem_C6N"><path d="M742.5,375.799 L742.5,401.1096 L771.5,401.1096 L771.5,385.799 L761.5,375.799 L742.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M761.5,375.799 L761.5,385.799 L771.5,385.799 L761.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="748.5" y="393.3674">3</text></g><g id="elem_C7N"><path d="M1094.5,375.799 L1094.5,401.1096 L1123.5,401.1096 L1123.5,385.799 L1113.5,375.799 L1094.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1113.5,375.799 L1113.5,385.799 L1123.5,385.799 L1113.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1100.5" y="393.3674">4</text></g><g id="elem_C8N"><path d="M1441.5,375.799 L1441.5,401.1096 L1470.5,401.1096 L1470.5,385.799 L1460.5,375.799 L1441.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1460.5,375.799 L1460.5,385.799 L1470.5,385.799 L1460.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1447.5" y="393.3674">5</text></g><g id="elem_C9N"><path d="M1788.5,375.799 L1788.5,401.1096 L1817.5,401.1096 L1817.5,385.799 L1807.5,375.799 L1788.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1807.5,375.799 L1807.5,385.799 L1817.5,385.799 L1807.5,375.799 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1794.5" y="393.3674">6</text></g><g id="elem_PNote"><path d="M1091,471.299 L1091,603.7834 L1443,603.7834 L1443,481.299 L1433,471.299 L1091,471.299 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1433,471.299 L1433,481.299 L1443,481.299 L1433,471.299 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="1097" y="488.8674">Pile1 have 1 card turned up.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="324" x="1097" y="504.1779">Pile2 have 1 card turned up and 1 card turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="1097" y="519.4885">Pile3 have 1 card turned up and 2 cards turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="1097" y="534.799">Pile4 have 1 card turned up and 3 cards turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="1097" y="550.1096">Pile5 have 1 card turned up and 4 cards turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="1097" y="565.4201">Pile6 have 1 card turned up and 5 cards turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="1097" y="580.7307">Pile7 have 1 card turned up and 6 cards turned down</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1097" y="596.0412">.</text></g><path d="M1132.3359,128.299 C1138.3253,128.299 1144.3146,128.299 1150.304,128.299 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1132.3359,128.299,1138.3359,132.299,1144.3359,128.299,1138.3359,124.299,1132.3359,128.299" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1150.304,128.299,1141.304,124.299,1145.304,128.299,1141.304,132.299,1150.304,128.299" style="stroke:#181818;stroke-width:1.0;"/><path d="M1035.5586,128.299 C1041.6917,128.299 1047.8247,128.299 1053.9578,128.299 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1035.5586,128.299,1044.5586,132.299,1040.5586,128.299,1044.5586,124.299,1035.5586,128.299" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1053.9578,128.299,1047.9578,124.299,1041.9578,128.299,1047.9578,132.299,1053.9578,128.299" style="stroke:#181818;stroke-width:1.0;"/><path d="M217.0406,122.4194 C286.587,108.6748 468.3361,74.7423 622,63.299 C667.873,59.8829 994.1006,44.3139 1036,63.299 C1057.0535,72.8386 1073.4041,94.4229 1083.0911,110.1085 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="217.0406,122.4194,226.6454,124.5985,221.9457,121.45,225.0943,116.7503,217.0406,122.4194" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1083.0911,110.1085,1083.3417,102.9017,1076.7857,99.8986,1076.5351,107.1053,1083.0911,110.1085" style="stroke:#181818;stroke-width:1.0;"/><path d="M1211.4176,110.0306 C1223.3227,94.2926 1242.8703,72.675 1266,63.299 C1277.9448,58.457 1283.3075,57.8761 1295,63.299 C1318.1998,74.0591 1335.1611,99.9605 1343.7206,115.6248 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1247.7266,128.299 C1253.6097,128.299 1259.4929,128.299 1265.3761,128.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1106.033,146.3809 C1114.9415,156.6774 1127.6963,168.9848 1142,175.299 C1236.4098,216.9754 1502.7133,197.6037 1605,211.299 C1686.9046,222.2654 1783.074,243.0277 1824.8519,252.4413 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1106.033,146.3809,1106.9338,153.5355,1113.8846,155.4558,1112.9837,148.3012,1106.033,146.3809" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1824.8519,252.4413,1816.9513,246.5608,1819.9742,251.3422,1815.1928,254.3651,1824.8519,252.4413" style="stroke:#181818;stroke-width:1.0;"/><path d="M1105.9725,146.5207 C1114.8568,156.8729 1127.6075,169.1899 1142,175.299 C1292.3255,239.1071 1713.9828,190.8133 1876,211.299 C1951.4258,220.836 2039.3521,241.8452 2078.8707,251.8264 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1105.9725,146.5207,1106.8446,153.6788,1113.7876,155.627,1112.9155,148.4688,1105.9725,146.5207" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2078.8707,251.8264,2071.1242,245.7443,2074.0229,250.602,2069.1652,253.5007,2078.8707,251.8264" style="stroke:#181818;stroke-width:1.0;"/><path d="M1080.3039,146.3762 C1071.6055,156.6708 1059.1158,168.9779 1045,175.299 C951.2175,217.2955 686.0651,199.4006 584,211.299 C480.4299,223.3729 357.5241,244.7509 309.1009,253.4528 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1080.3039,146.3762,1073.3761,148.3776,1072.559,155.5423,1079.4868,153.5408,1080.3039,146.3762" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="309.1009,253.4528,318.6664,255.7979,314.022,252.5684,317.2515,247.924,309.1009,253.4528" style="stroke:#181818;stroke-width:1.0;"/><path d="M1079.656,146.3067 C1070.8801,156.3049 1058.5416,168.3167 1045,175.299 C971.2927,213.3041 711.1472,245.9827 635.0539,254.8996 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1079.656,146.3067,1072.6917,148.1773,1071.7399,155.3254,1078.7042,153.4547,1079.656,146.3067" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="635.0539,254.8996,644.4583,257.8249,640.0199,254.3176,643.5272,249.8793,635.0539,254.8996" style="stroke:#181818;stroke-width:1.0;"/><path d="M1075.8722,146.5617 C1051.6334,170.9913 1007.5738,215.3979 983.262,239.9011 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1075.8722,146.5617,1068.8067,148.0036,1067.4203,155.0802,1074.4857,153.6382,1075.8722,146.5617" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="983.262,239.9011,992.4405,236.3295,986.7837,236.3517,986.7615,230.6949,983.262,239.9011" style="stroke:#181818;stroke-width:1.0;"/><path d="M1111.2067,146.5617 C1136.9724,170.9913 1183.8074,215.3979 1209.6506,239.9011 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1111.2067,146.5617,1112.8086,153.5926,1119.9147,154.8182,1118.3129,147.7873,1111.2067,146.5617" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1209.6506,239.9011,1205.8717,230.806,1206.0223,236.4609,1200.3674,236.6114,1209.6506,239.9011" style="stroke:#181818;stroke-width:1.0;"/><path d="M1106.6891,146.3068 C1115.673,156.3051 1128.2715,168.3169 1142,175.299 C1216.2489,213.0612 1477.4616,245.9101 1553.8618,254.8833 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1106.6891,146.3068,1107.7239,153.4433,1114.7095,155.2328,1113.6746,148.0963,1106.6891,146.3068" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1553.8618,254.8833,1545.3898,249.8608,1548.8959,254.3001,1544.4566,257.8062,1553.8618,254.8833" style="stroke:#181818;stroke-width:1.0;"/><path d="M734.8424,81.1945 C745.0802,73.8525 756.3342,67.3619 768,63.299 C808.7127,49.1201 923.7103,43.4883 962,63.299 C980.9091,73.0824 993.7145,94.6172 1000.917,110.2246 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M731.2935,81.2183 C750.8954,66.4944 774.6638,55.8206 798,63.299 C825.1785,72.0088 851.1494,92.1482 868.338,107.7192 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M140.75,128.299 C146.7793,128.299 152.8086,128.299 158.8379,128.299 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M174.4411,146.3797 C167.1691,155.2546 157.8948,166.1315 149,175.299 C136.5605,188.1199 122.4868,201.3557 109.1907,213.3537 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M188,146.5617 C188,163.0756 188,188.7178 188,211.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1856.3846,276.5617 C1866.3187,293.0756 1881.7441,318.7178 1895.2505,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M2118.2067,276.5617 C2135.6237,293.0756 2162.6683,318.7178 2186.3483,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M2093.7962,276.5617 C2087.8615,293.0756 2078.6464,318.7178 2070.5776,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M750.0352,128.299 C756.1302,128.299 762.2253,128.299 768.3203,128.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M279.6501,276.7264 C274.4593,286.1321 267.0504,297.399 258,305.299 C229.8426,329.8774 214.1239,322.1943 182,341.299 C177.2277,344.1372 172.368,347.2462 167.5714,350.4665 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M288,276.5617 C288,293.0756 288,318.7178 288,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M352.0352,388.299 C358.1302,388.299 364.2253,388.299 370.3203,388.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M595.7933,276.5617 C578.3763,293.0756 551.3317,318.7178 527.6517,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M620.2038,276.5617 C626.1385,293.0756 635.3536,318.7178 643.4224,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M724.0352,388.299 C730.1302,388.299 736.2253,388.299 742.3203,388.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M949.1419,276.5617 C933.0151,293.0756 907.9738,318.7178 886.0478,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M972.2038,276.5617 C978.1385,293.0756 987.3536,318.7178 995.4224,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1076.0352,388.299 C1082.1302,388.299 1088.2253,388.299 1094.3203,388.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1222.8752,276.5617 C1217.9726,293.0756 1210.36,318.7178 1203.6945,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1245.6672,276.5617 C1262.5682,293.0756 1288.8115,318.7178 1311.7899,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1423.0352,388.299 C1429.1302,388.299 1435.2253,388.299 1441.3203,388.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1569.8752,276.5617 C1564.9726,293.0756 1557.36,318.7178 1550.6945,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1592.6672,276.5617 C1609.5682,293.0756 1635.8115,318.7178 1658.7899,341.17 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M1770.0352,388.299 C1776.1302,388.299 1782.2253,388.299 1788.3203,388.299 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1850.1242,276.5074 C1857.3831,311.4701 1868.0575,391.2222 1827,435.299 C1775.7406,490.328 1587.38,515.6263 1443.1241,527.0934 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M2110.3901,276.3103 C2130.0483,310.9093 2167.2672,390.026 2127,435.299 C2082.4,485.4434 1681.6108,514.7739 1443.2221,527.9301 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M278.5563,276.3238 C273.1312,285.3875 265.8474,296.4564 258,305.299 C241.456,323.9412 225.5461,318.7155 215,341.299 C197.3229,379.1527 186.9057,404.3783 215,435.299 C272.6434,498.7417 806.7105,523.3806 1090.9248,532.0609 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M603.5755,276.4741 C584.0905,311.0253 547.5299,389.5334 587,435.299 C650.82,509.2983 911.2173,529.9547 1090.5993,535.2328 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M955.8902,276.5165 C937.4253,310.4646 903.2843,386.9306 939,435.299 C958.776,462.0809 1023.7879,484.7268 1090.7743,501.7442 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1232.932,276.4278 C1237.4993,292.9151 1244.1491,318.6177 1248,341.299 C1255.2879,384.2233 1260.0379,432.9733 1262.9659,470.9922 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><path d="M1584.0597,276.5601 C1600.5261,310.5855 1630.5299,387.1822 1595,435.299 C1575.224,462.0809 1510.2121,484.7268 1443.2257,501.7442 " fill="none" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[f99ad3a598d4e82a5a79115a2ad53458]
+@startuml ObjectDiagramInitialState
+title Klondike  - Objects Diagram - Initial State
+!pragma layout smetana
+
+object ":Klondike" as Klondike
+object ":Waste" as Waste
+object ":Stock" as Stock
+object ":Pile" as Pile3
+object ":Pile" as Pile4
+object ":Pile" as Pile5
+object ":Pile" as Pile6
+object ":Pile" as Pile7
+object ":Pile" as Pile8
+object ":Pile" as Pile9
+object ":Foundation" as Foundation
+
+object ":Card" as Card1 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card21 {
+    color: black
+    number: 7
+    figure: heart
+    turned: true
+}
+
+object ":Card" as Card22 {
+    color: black
+    number: 4
+    figure: clover
+    turned: true
+}
+
+object ":Card" as Card23 {
+    color: red
+    number: Q
+    figure: diamond
+    turned: true
+}
+
+object ":Card" as Card3 {
+    color: red
+    number: K
+    figure: heart
+    turned: true
+}
+
+object ":Card" as Card4 {
+    color: red
+    number: 9
+    figure: diamond
+    turned: true
+}
+
+object ":Card" as Card41 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card5 {
+    color: black
+    number: 3
+    figure: heart
+    turned: true
+}
+
+object ":Card" as Card51 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card6 {
+    color: red
+    number: J
+    figure: diamond
+    turned: true
+}
+
+object ":Card" as Card61 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card7 {
+    color: black
+    number: 9
+    figure: clover
+    turned: true
+}
+
+object ":Card" as Card71 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card8 {
+    color: red
+    number: 7
+    figure: heart
+    turned: true
+}
+
+object ":Card" as Card81 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+object ":Card" as Card9 {
+    color: red
+    number: A
+    figure: heart
+    turned: true
+}
+
+object ":Card" as Card91 {
+    color: random
+    number: random
+    figure: random
+    turned: false
+}
+
+Klondike *-right-> Foundation
+Klondike *-left-> Stock
+Klondike *-left-> Waste
+note  "Is Empty" as FNote
+note "4" as FNNote
+Foundation .right FNote
+Foundation . FNNote
+Klondike *- -> Pile3
+Klondike *- -> Pile4
+Klondike *- -> Pile5
+Klondike *- -> Pile6
+Klondike *- -> Pile7
+Klondike *- -> Pile8
+Klondike *- -> Pile9
+
+Stock -left- Card1
+note "Stock have 21\n cards turned down." as C1N
+Card1 . C1N
+
+Waste -left- Card21
+Waste - - Card22
+Waste - - Card23
+
+Pile3 -down-  Card3
+
+Pile4 - -  Card4
+Pile4 - -  Card41
+note "1" as C4N
+Card1 . C4N
+
+Pile5 - -  Card5
+Pile5 - -  Card51
+note "2" as C5N
+Card51 . C5N
+
+Pile6 - -  Card6
+Pile6 - -  Card61
+note "3" as C6N
+Card61 . C6N
+
+Pile7 - -  Card7
+Pile7 - -  Card71
+note "4" as C7N
+Card71 . C7N
+
+Pile8 - -  Card8
+Pile8 - -  Card81
+note "5" as C8N
+Card81 . C8N
+
+Pile9 - -  Card9
+Pile9 - -  Card91
+note "6" as C9N
+Card91 . C9N
+
+note "Pile1 have 1 card turned up.\nPile2 have 1 card turned up and 1 card turned down\nPile3 have 1 card turned up and 2 cards turned down\nPile4 have 1 card turned up and 3 cards turned down\nPile5 have 1 card turned up and 4 cards turned down\nPile6 have 1 card turned up and 5 cards turned down\nPile7 have 1 card turned up and 6 cards turned down\n." as PNote
+Pile3 ... PNote
+Pile4 ... PNote
+Pile5 ... PNote
+Pile6 ... PNote
+Pile7 ... PNote
+Pile8 ... PNote
+Pile9 ... PNote
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 05:55:52 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: EC
+--></g></svg>

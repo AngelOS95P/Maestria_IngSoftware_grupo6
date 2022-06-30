@@ -1,6 +1,7 @@
 
 @startuml ObjectDiagramFinalState
-title Klondike  - Objects Diagram of Final State
+title Klondike  - Objects Diagram - Final State
+!pragma layout smetana
 
 object ":Klondike" as Klondike
 object ":Waste" as Waste
@@ -49,7 +50,7 @@ Klondike *-down--> Foundation2
 Klondike *-down--> Foundation3
 Klondike *-down--> Foundation4
 Klondike *-left-> Stock
-Klondike *-left-> Waste
+Klondike *-right-> Waste
 
 note  "13 cards in ascending\norder of each suit." as FNote
 Foundation1 .down. FNote

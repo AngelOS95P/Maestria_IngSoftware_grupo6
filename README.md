@@ -16,15 +16,16 @@ Universidad Politecnica Salesiana
 
 * [Domain Model](#domain-model)  
     * [Vocabulary](#vocabulary)
-    * [Estado Inicial](#estado-inicial)  
-    * [Estado movimiento de carta](#estado-movimiento-de-carta)
-    * [Diagra de actividades](#diagra-de-actividades)
-     * [Diagra de actividades detallado](#diagra-de-actividades-detallado)
+    * [Initial State](#initial-state)
+    * [Final State](#final-state)  
+    * [Card's Life Cycle](#card's-life-cycle)
+    * [Activity Diagram](#activity-diagram)
+     * [Detail Activity Diagram](#detail-activity-diagram)
 
 
-- [Modelo de vistas de caso de uso](#modelo-de-vistas-de-caso-de-uso)
-    * [Diagrama de actores y casos de uso](#diagrama-de-actores-y-casos-de-uso)  
-    * [Diagrama relacion de casos de uso](#diagrama-relacion-de-casos-de-uso)
+- [Use Case Views](#use-case-views)
+    * [Actors and Use Cases Diagram](#actors-and-use-cases-diagram)  
+    * [Use Case Relationship Diagram](#se-case-relationship-diagram)
     * [Casos de Uso](#casos-de-uso)
         * [CU Login](#cu-loguin)
         * [CU StartGame](#cu-startgame)
@@ -77,25 +78,26 @@ Universidad Politecnica Salesiana
 ![Vocabulario](./out/1%20Modelo%20de%20Dominio/01_Diagrama%20de%20clases/Class%20Diagram.svg)  
   
 
-### Estado Inicial
+### Initial State
+![Estado_inicial](./out/1%20Modelo%20de%20Dominio/02_Diagrama%20de%20objetos%20estado%20inicial/ObjectDiagramInitialState.svg)  
   
-![Estado_inicial](./out/1%20Modelo%20de%20Dominio/02_diagrama%20de%20objetos/ObjectDiagram.svg)  
-  
+### Final State
+![Estado_final](./out/1%20Modelo%20de%20Dominio/02_Diagrama%20de%20objetos%20estado%20final/ObjectDiagramFinalState.svg)
 
 
-### Estado movimiento de carta 
+### Card's Life Cycle
 
-* Diferentes situacion para una carte que se quiera mover
+* Diferentes situacion para una carta que se quiera mover
 
-![Estado_final](./out/1%20Modelo%20de%20Dominio/03_Diagrama%20de%20estados/StateDiagram.svg)  
+![Card's Life Cycle](./out/1%20Modelo%20de%20Dominio/03_Diagrama%20de%20estados/StateDiagram.svg)  
 
 
 
-### Diagra de actividades 
+### Activity Diagram
 
 ![Diagra de actividades](./out/1%20Modelo%20de%20Dominio/04_Diagrama%20de%20actividades/ActivitiesDiagram.svg)
 
-### Diagra de actividades detallado
+### Detail Activity Diagram
 
 ![Diagra de actividades detallado](./out/1%20Modelo%20de%20Dominio/05_Diagrama%20de%20actividades%20detallado/DetailActivityDiagram.svg)
 
@@ -104,12 +106,12 @@ Universidad Politecnica Salesiana
 ---
 
 
-## Modelo de vistas de caso de uso
+## Use Case Views
 
-### Diagrama de actores y casos de uso
+### Actors and Use Cases Diagram
 ![Actores y casos de uso](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20actores%20y%20casos%20de%20uso/ActorsDiagram.svg)
 
-### Diagrama relacion de casos de uso
+### Use Case Relationship Diagram
 ![Relacion de casos de uso](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20relacion%20de%20Casos%20de%20Uso/UseCaseContextDiagram.svg)
 
 
@@ -120,8 +122,11 @@ Universidad Politecnica Salesiana
 ![CU Shuffle](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20Shuffle/shuffleUseCaseSpecification.svg)
 
 
+#### CU PiletoFoundationMove
+![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20PileToFoundationMove/UCPileToPileMove.svg)
+
 #### CU FoundationtoPileMove
-![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20FoundationToPileMove/UseCaseFoundationtoPileMove.svg)
+![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20FoundationToPileMove/UCFoundationtoPileMove.svg)
 
 #### CU WastetoPileMove
 ![CU FoundationtoPileMove](./out/2%20Modelo%20de%20vistas%20de%20caso%20de%20uso/Diagrama%20de%20caso%20de%20uso%20-%20WasteToPileMove/UseCaseWasteToPileMove.svg)
