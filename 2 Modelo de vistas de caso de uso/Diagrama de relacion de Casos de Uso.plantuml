@@ -19,7 +19,7 @@ GAME_READY--> IN_GAME: DealToWaste
 IN_GAME --> if_finished: MoveCard
 if_finished --> IN_GAME
 if_finished --> OUT_GAME: [finished]
-OUT_GAME --> if_resumed: ResetGame
+OUT_GAME --> if_resumed: RestartGame
 if_resumed --> INITIAL: [continued]
 if_resumed --> EXIT
 EXIT --> [*]
