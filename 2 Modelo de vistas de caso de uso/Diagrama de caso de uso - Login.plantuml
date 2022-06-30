@@ -1,0 +1,14 @@
+@startuml UCLogin
+!pragma layout smetana
+title Klondike  - Login - Use Case Diagram
+
+state GAME_READY
+state INFO_READY
+state START_GAME
+
+[*] --> INFO_READY: PlayerRequireSendInfo
+INFO_READY --> GAME_READY: SystemPrepareGame
+GAME_READY --> START_GAME: PlayerRequirePlay
+START_GAME --> [*]
+
+@enduml
