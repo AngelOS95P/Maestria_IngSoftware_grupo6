@@ -15,7 +15,7 @@ IN_GAME --> CARD_SELECTED: Player take card from Waste
 CARD_SELECTED --> if: [is"K"AndSomePileIsEmpty]
 if --> if2:[isPreviousNumberAndDiferentColorInAnotherPile]
 if --> CardToPile: MoveCardToAnotherPile
-if2 --> CardToPile: MoveCardToEmptyFoundation
+if2 --> CardToPile: MoveCardToAnotherPile
 if2 --> [*]
 
 CardToPile--> [*]

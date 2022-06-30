@@ -12,27 +12,27 @@ package Views {
 }
 
 package Controllers {
-    class Login
-    class DealToWaste
-    class PileToPileMove
-    class PileToFoundationMove
-    class Undo
-    class FoundationToPileMove
-    class WasteToPileMove
-    class WasteToFondationMove
-    class WasteToStockMove
-    class Redo
-    class RestartGame
+    class LoginController
+    class DealToWasteController
+    class PileToPileMoveController
+    class PileToFoundationMoveController
+    class UndoController
+    class FoundationToPileMoveController
+    class WasteToPileMoveController
+    class WasteToFondationMoveController
+    class WasteToStockMoveController
+    class RedoController
+    class RestartGameController
 } 
 package Models {
     class StackModel
     class CardModel
     class PlayerModel
-    class DeckModel
+    class WasteModel
     class FoundationModel
     class PileModel
     class StockModel
-    StackModel <|-down- DeckModel
+    StackModel <|-down- WasteModel
     StackModel <|-down- FoundationModel
     StackModel <|-down- PileModel
     StackModel <|-down- StockModel
