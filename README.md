@@ -12,8 +12,13 @@ Universidad Politecnica Salesiana
 
 
 ---
+## Práctica Agil
 
-## index
+Product Backlog y tres gestiones de Srping, esta en el archivo en la siguiente ruta "Agil/Scrum.slxs" en este mismo repositorio.
+
+* [Scrum](./Agil/SCRUM.xlsx)
+
+## Index RUP
 
 * [Domain Model](#domain-model)  
     * [Vocabulary](#vocabulary)
