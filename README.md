@@ -1,4 +1,4 @@
-# Klondike Diagrams 
+# Práctica Klondike  
 Universidad Politecnica Salesiana  
 
 
